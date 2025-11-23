@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: smart_access
+    database: smart_access
+    schema: public
+    tables:
+      - name: raw_access_events
+      - name: raw_devices
+      - name: raw_households
+
+models:
+  - name: stg_access_events
+    columns:
+      - name: event_id
+        tests:
+          - not_null
+          - unique
+      - name: event_type
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['open', 'close', 'command_failed']
