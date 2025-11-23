@@ -1,0 +1,59 @@
+version: 2
+
+models:
+  - name: dim_device
+    description: "Device dimension for smart access devices."
+    columns:
+      - name: device_key
+        tests:
+          - not_null
+          - unique
+      - name: device_id
+        tests:
+          - not_null
+      - name: household_id
+        tests:
+          - not_null
+
+  - name: dim_household
+    description: "Household dimension with region and timezone."
+    columns:
+      - name: household_key
+        tests:
+          - not_null
+          - unique
+      - name: household_id
+        tests:
+          - not_null
+
+  - name: fct_access_events
+    description: "Event-level fact table of all smart access events."
+    columns:
+      - name: event_id
+        tests:
+          - not_null
+          - unique
+      - name: device_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_device')
+              field: device_id
+      - name: household_id
+        tests:
+          - relationships:
+              to: ref('dim_household')
+              field: household_id
+
+  - name: fct_device_daily_summary
+    description: "Daily device-level summary of events and health metrics."
+    columns:
+      - name: device_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_device')
+              field: device_id
+      - name: date
+        tests:
+          - not_null
