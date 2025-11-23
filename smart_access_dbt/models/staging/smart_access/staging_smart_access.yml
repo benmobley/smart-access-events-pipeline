@@ -8,6 +8,7 @@ sources:
       - name: raw_access_events
       - name: raw_devices
       - name: raw_households
+      - name: raw_device_health
 
 models:
   - name: stg_access_events

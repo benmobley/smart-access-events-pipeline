@@ -59,6 +59,15 @@ def main():
            lat double precision,
            lon double precision""",
     )
+    load_table(
+        BASE_PATH / "device_health" / "device_health.csv",
+        "raw_device_health",
+        """device_id int,
+           reported_at timestamp,
+           battery_pct double precision,
+           signal_strength_dbm double precision,
+           is_online boolean""",
+    )
 
 if __name__ == "__main__":
     main()
