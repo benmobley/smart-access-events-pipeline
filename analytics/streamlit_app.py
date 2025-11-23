@@ -39,14 +39,22 @@ def load_daily_summary():
     engine = get_database_engine()
     query = """
     SELECT 
-        dds.*,
+        dds.device_id,
+        dds.date,
+        dds.total_events,
+        dds.opens,
+        dds.closes,
+        dds.failures,
+        dds.avg_battery_pct,
+        dds.avg_signal_strength_dbm,
+        dds.online_ratio,
         dd.device_type,
         dd.model,
         dd.firmware_version,
         dh.region
-    FROM fct_device_daily_summary dds
-    JOIN dim_device dd ON dds.device_id = dd.device_id
-    JOIN dim_household dh ON dd.household_id = dh.household_id
+    FROM smart_access.fct_device_daily_summary dds
+    JOIN smart_access.dim_device dd ON dds.device_id = dd.device_id
+    JOIN smart_access.dim_household dh ON dd.household_id = dh.household_id
     ORDER BY dds.date DESC
     """
     return pd.read_sql(query, engine)
@@ -57,14 +65,18 @@ def load_access_events():
     engine = get_database_engine()
     query = """
     SELECT 
-        fae.*,
+        fae.event_id,
+        fae.device_id,
+        fae.event_ts,
+        fae.event_type,
+        fae.trigger_source,
         dd.device_type,
         dd.model,
         dd.firmware_version,
         dh.region
-    FROM fct_access_events fae
-    JOIN dim_device dd ON fae.device_id = dd.device_id
-    JOIN dim_household dh ON dd.household_id = dh.household_id
+    FROM smart_access.fct_access_events fae
+    JOIN smart_access.dim_device dd ON fae.device_id = dd.device_id
+    JOIN smart_access.dim_household dh ON dd.household_id = dh.household_id
     """
     return pd.read_sql(query, engine)
 

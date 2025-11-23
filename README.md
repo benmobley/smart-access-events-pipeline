@@ -44,8 +44,7 @@ python etl/load_to_postgres.py
 
 ```bash
 cd smart_access_dbt
-dbt deps
-dbt run    # Build staging + mart tables
+dbt run    # Build staging + mart views in smart_access schema
 dbt test   # Validate data quality
 cd ..
 ```
@@ -61,32 +60,42 @@ streamlit run analytics/streamlit_app.py
 
 ## 📊 Data Architecture
 
-**Pipeline Flow**: Synthetic Data → PostgreSQL → dbt → Streamlit
+**Pipeline Flow**: Synthetic Data → PostgreSQL (Raw Tables) → dbt (Views in `smart_access` schema) → Streamlit
 
-### **Staging Layer**
+### **Raw Layer** (`public` schema)
 
-- `stg_access_events` - Event log (opens/closes/failures)
-- `stg_devices` - Device registry (type, model, firmware)
-- `stg_households` - Household metadata (region, timezone)
-- `stg_device_health` - Device telemetry (battery, signal, connectivity)
+- `raw_access_events` - Raw event data
+- `raw_devices` - Raw device data
+- `raw_households` - Raw household data
+- `raw_device_health` - Raw device health metrics
 
-### **Marts Layer** (Star Schema)
+### **Staging Layer** (`smart_access` schema - Views)
+
+- `stg_access_events` - Cleaned event log (opens/closes/failures)
+- `stg_devices` - Cleaned device registry (type, model, firmware)
+- `stg_households` - Cleaned household metadata (region, timezone)
+- `stg_device_health` - Cleaned device telemetry (battery, signal, connectivity)
+
+### **Marts Layer** (`smart_access` schema - Star Schema Views)
 
 **Dimensions:**
 
-- `dim_device` - Device attributes
-- `dim_household` - Household attributes
+- `dim_device` - Device attributes joined with household context
+- `dim_household` - Household attributes with region and timezone
 
 **Facts:**
 
-- `fct_access_events` - Event-level grain
-- `fct_device_daily_summary` - Daily aggregations (opens, closes, failures, battery, signal strength)
+- `fct_access_events` - Event-level grain with surrogate keys
+- `fct_device_daily_summary` - Daily aggregations (opens, closes, failures, battery, signal strength, online ratio)
 
 ---
 
 ## 🛠️ Tech Stack
 
-Python · PostgreSQL · dbt · Streamlit · Plotly · SQLAlchemy · pandas
+**Data Generation & ETL**: Python · Faker · pandas · SQLAlchemy  
+**Database**: PostgreSQL (with separate schemas for raw and transformed data)  
+**Transformation**: dbt Core (materializing models as views)  
+**Visualization**: Streamlit · Plotly
 
 ---
 
@@ -118,15 +127,23 @@ The Streamlit dashboard provides:
 
 ```
 smart-access-events-pipeline/
+├── data/raw/                       # Generated CSV files
+│   ├── access_events/
+│   ├── devices/
+│   ├── households/
+│   └── device_health/
 ├── etl/
-│   ├── generate_synthetic_data.py  # Data generator
-│   └── load_to_postgres.py         # Database loader
+│   ├── generate_synthetic_data.py  # Synthetic data generator
+│   └── load_to_postgres.py         # Loads CSVs to PostgreSQL raw tables
 ├── smart_access_dbt/
+│   ├── dbt_project.yml
 │   └── models/
-│       ├── staging/                # Cleaned source data
-│       └── marts/                  # Analytics models
+│       ├── staging/                # Cleaned source data (views)
+│       │   └── smart_access/
+│       └── marts/                  # Analytics models (views)
+│           └── smart_access/
 ├── analytics/
-│   └── streamlit_app.py            # Dashboard
+│   └── streamlit_app.py            # Interactive dashboard
 └── requirements.txt                # Python dependencies
 ```
 
@@ -136,18 +153,24 @@ smart-access-events-pipeline/
 
 dbt tests validate:
 
-- Uniqueness (event_id primary keys)
-- Not null constraints
-- Referential integrity
-- Accepted values for event types
+- **Uniqueness**: Primary keys (event_id, device_key, household_key)
+- **Not null constraints**: Critical fields across all models
+- **Referential integrity**: Foreign key relationships between facts and dimensions
+- **Accepted values**: Event types restricted to valid values (open, close, command_failed)
 
-Run: `dbt test`
+Run: `dbt test` (18 tests included)
 
 ---
 
-## 🔮 Future Ideas
+## 🔮 Future Enhancements
 
-- Airflow orchestration · Incremental models · Kafka streaming · dbt snapshots · Predictive maintenance ML · Geospatial analysis
+- **Orchestration**: Airflow/Dagster for scheduled pipeline runs
+- **Materialization**: Convert views to tables for better performance at scale
+- **Incremental Models**: Process only new/changed data
+- **Streaming**: Real-time ingestion with Kafka
+- **SCD Type 2**: Track dimension changes over time with dbt snapshots
+- **ML**: Predictive maintenance based on device health patterns
+- **Advanced Analytics**: Geospatial analysis, user behavior clustering
 
 ---
 
