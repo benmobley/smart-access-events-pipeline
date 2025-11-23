@@ -6,55 +6,47 @@ End-to-end IoT analytics pipeline simulating smart garage door/gate telemetry. D
 
 ---
 
-## 🚀 Quick Start - Complete Pipeline
-
-Run the full pipeline from data generation to dashboard in 5 steps:
+## 🚀 Quick Start
 
 ### **Prerequisites**
 
-- Python 3.9+
-- PostgreSQL running locally
-- Git
+- Python 3.9+ · PostgreSQL · Git
 
-### **Step 1: Environment Setup**
+### **One-Command Pipeline**
 
 ```bash
+# Setup
 git clone <your-repo-url>
 cd smart-access-events-pipeline
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate
 pip install -r requirements.txt
+
+# Run entire pipeline (data generation → ETL → dbt)
+./orchestration/run_all.sh
+
+# Launch dashboard
+streamlit run analytics/streamlit_app.py  # http://localhost:8501
 ```
 
-### **Step 2: Generate Synthetic Data**
+<details>
+<summary><b>Manual Step-by-Step (Alternative)</b></summary>
 
 ```bash
+# 1. Generate synthetic data
 python etl/generate_synthetic_data.py
-# Creates: 1,000 households, 3,000 devices, ~210K events (7 days)
-```
 
-### **Step 3: Load to PostgreSQL**
-
-```bash
+# 2. Load to PostgreSQL
 python etl/load_to_postgres.py
-# Creates database 'smart_access' with raw tables
-```
 
-### **Step 4: Run dbt Models**
+# 3. Run dbt transformations
+cd smart_access_dbt && dbt run && dbt test && cd ..
 
-```bash
-cd smart_access_dbt
-dbt run    # Build staging + mart views in smart_access schema
-dbt test   # Validate data quality
-cd ..
-```
-
-### **Step 5: Launch Dashboard**
-
-```bash
+# 4. Launch dashboard
 streamlit run analytics/streamlit_app.py
-# Opens at http://localhost:8501
 ```
+
+</details>
 
 ---
 
@@ -127,24 +119,18 @@ The Streamlit dashboard provides:
 
 ```
 smart-access-events-pipeline/
-├── data/raw/                       # Generated CSV files
-│   ├── access_events/
-│   ├── devices/
-│   ├── households/
-│   └── device_health/
+├── orchestration/
+│   └── run_all.sh                  # End-to-end pipeline automation
 ├── etl/
 │   ├── generate_synthetic_data.py  # Synthetic data generator
-│   └── load_to_postgres.py         # Loads CSVs to PostgreSQL raw tables
+│   └── load_to_postgres.py         # Loads CSVs to PostgreSQL
 ├── smart_access_dbt/
-│   ├── dbt_project.yml
 │   └── models/
 │       ├── staging/                # Cleaned source data (views)
-│       │   └── smart_access/
 │       └── marts/                  # Analytics models (views)
-│           └── smart_access/
 ├── analytics/
 │   └── streamlit_app.py            # Interactive dashboard
-└── requirements.txt                # Python dependencies
+└── data/raw/                       # Generated CSV files
 ```
 
 ---
