@@ -19,9 +19,9 @@ from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
 
-# Project paths
-PROJECT_ROOT = Path(__file__).parents[2]  # Go up from airflow/dags/ to project root
-VENV_PYTHON = PROJECT_ROOT / "venv" / "bin" / "python"
+# Project paths (mounted in Docker container)
+PROJECT_ROOT = Path("/opt/airflow")
+ETL_DIR = PROJECT_ROOT / "etl"
 DBT_DIR = PROJECT_ROOT / "smart_access_dbt"
 
 # Default arguments for the DAG
@@ -49,14 +49,14 @@ dag = DAG(
 # Task 1: Generate synthetic data
 generate_data = BashOperator(
     task_id='generate_synthetic_data',
-    bash_command=f'{VENV_PYTHON} {PROJECT_ROOT}/etl/generate_synthetic_data.py',
+    bash_command=f'python {ETL_DIR}/generate_synthetic_data.py',
     dag=dag,
 )
 
 # Task 2: Load data to PostgreSQL
 load_to_postgres = BashOperator(
     task_id='load_to_postgres',
-    bash_command=f'{VENV_PYTHON} {PROJECT_ROOT}/etl/load_to_postgres.py',
+    bash_command=f'python {ETL_DIR}/load_to_postgres.py',
     dag=dag,
 )
 
