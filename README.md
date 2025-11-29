@@ -9,6 +9,7 @@ End-to-end IoT analytics pipeline simulating smart garage door/gate telemetry. D
 ## 🚀 Quick Start
 
 ### **Prerequisites**
+
 - Python 3.9+ · PostgreSQL · Docker (for Airflow) · Git
 
 ### **Option 1: Airflow Orchestration (Recommended)**

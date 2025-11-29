@@ -10,6 +10,7 @@ docker-compose -f docker-compose.airflow.yml --env-file .env.airflow up -d
 ```
 
 This starts:
+
 - Airflow Webserver (UI): http://localhost:8080
 - Airflow Scheduler (background)
 - PostgreSQL database for Airflow metadata (port 5433)
@@ -23,10 +24,12 @@ This starts:
 ### 3. Run the Pipeline
 
 **Option A: Manual Trigger**
+
 1. Navigate to the `smart_access_pipeline` DAG
 2. Click the "Play" button to trigger manually
 
 **Option B: Scheduled Run**
+
 - The DAG runs automatically daily at 2 AM UTC
 - View schedule in the DAG details page
 
@@ -57,6 +60,7 @@ schedule_interval='0 2 * * *',  # Daily at 2 AM UTC
 ```
 
 Common schedules:
+
 - `'@hourly'` - Every hour
 - `'0 */6 * * *'` - Every 6 hours
 - `'@daily'` - Daily at midnight
