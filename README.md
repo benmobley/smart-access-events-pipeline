@@ -9,40 +9,48 @@ End-to-end IoT analytics pipeline simulating smart garage door/gate telemetry. D
 ## 🚀 Quick Start
 
 ### **Prerequisites**
+- Python 3.9+ · PostgreSQL · Docker (for Airflow) · Git
 
-- Python 3.9+ · PostgreSQL · Git
-
-### **One-Command Pipeline**
+### **Option 1: Airflow Orchestration (Recommended)**
 
 ```bash
 # Setup
 git clone <your-repo-url>
 cd smart-access-events-pipeline
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
 
-# Run entire pipeline (data generation → ETL → dbt)
-./orchestration/run_all.sh
+# Start Airflow (must stay running for scheduled execution)
+docker-compose -f docker-compose.airflow.yml --env-file .env.airflow up -d
+
+# Access Airflow UI at http://localhost:8080 (airflow/airflow)
+# Trigger manually or let it run on schedule (daily at 2 AM UTC)
 
 # Launch dashboard
 streamlit run analytics/streamlit_app.py  # http://localhost:8501
 ```
 
-<details>
-<summary><b>Manual Step-by-Step (Alternative)</b></summary>
+> **Note**: Docker must remain running continuously for Airflow scheduler to work.
+
+### **Option 2: Bash Script**
 
 ```bash
-# 1. Generate synthetic data
+# Setup
+python -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+
+# Run pipeline
+./orchestration/run_all.sh
+
+# Launch dashboard
+streamlit run analytics/streamlit_app.py
+```
+
+<details>
+<summary><b>Manual Step-by-Step</b></summary>
+
+```bash
 python etl/generate_synthetic_data.py
-
-# 2. Load to PostgreSQL
 python etl/load_to_postgres.py
-
-# 3. Run dbt transformations
 cd smart_access_dbt && dbt run && dbt test && cd ..
-
-# 4. Launch dashboard
 streamlit run analytics/streamlit_app.py
 ```
 
@@ -84,6 +92,7 @@ streamlit run analytics/streamlit_app.py
 
 ## 🛠️ Tech Stack
 
+**Orchestration**: Apache Airflow · Docker Compose  
 **Data Generation & ETL**: Python · Faker · pandas · SQLAlchemy  
 **Database**: PostgreSQL (with separate schemas for raw and transformed data)  
 **Transformation**: dbt Core (materializing models as views)  
@@ -119,18 +128,24 @@ The Streamlit dashboard provides:
 
 ```
 smart-access-events-pipeline/
+├── airflow/
+│   ├── dags/
+│   │   └── smart_access_pipeline_dag.py  # Airflow DAG for scheduled runs
+│   ├── logs/                             # Airflow execution logs
+│   └── plugins/                          # Custom Airflow plugins
 ├── orchestration/
-│   └── run_all.sh                  # End-to-end pipeline automation
+│   └── run_all.sh                        # Bash script for manual runs
 ├── etl/
-│   ├── generate_synthetic_data.py  # Synthetic data generator
-│   └── load_to_postgres.py         # Loads CSVs to PostgreSQL
+│   ├── generate_synthetic_data.py        # Synthetic data generator
+│   └── load_to_postgres.py               # Loads CSVs to PostgreSQL
 ├── smart_access_dbt/
 │   └── models/
-│       ├── staging/                # Cleaned source data (views)
-│       └── marts/                  # Analytics models (views)
+│       ├── staging/                      # Cleaned source data (views)
+│       └── marts/                        # Analytics models (views)
 ├── analytics/
-│   └── streamlit_app.py            # Interactive dashboard
-└── data/raw/                       # Generated CSV files
+│   └── streamlit_app.py                  # Interactive dashboard
+├── docker-compose.airflow.yml            # Airflow Docker setup
+└── data/raw/                             # Generated CSV files
 ```
 
 ---
@@ -150,13 +165,13 @@ Run: `dbt test` (18 tests included)
 
 ## 🔮 Future Enhancements
 
-- **Orchestration**: Airflow/Dagster for scheduled pipeline runs
 - **Materialization**: Convert views to tables for better performance at scale
-- **Incremental Models**: Process only new/changed data
+- **Incremental Models**: Process only new/changed data in dbt
 - **Streaming**: Real-time ingestion with Kafka
 - **SCD Type 2**: Track dimension changes over time with dbt snapshots
 - **ML**: Predictive maintenance based on device health patterns
 - **Advanced Analytics**: Geospatial analysis, user behavior clustering
+- **Monitoring**: Data quality monitoring with Great Expectations
 
 ---
 

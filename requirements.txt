@@ -18,3 +18,7 @@ plotly>=5.18.0
 
 # Data Generation
 faker>=20.0.0
+
+# Orchestration
+apache-airflow>=2.8.0
+apache-airflow-providers-postgres>=5.10.0
