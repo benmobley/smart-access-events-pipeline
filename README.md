@@ -1,6 +1,6 @@
 # Smart Access Events Pipeline
 
-End-to-end IoT analytics pipeline simulating smart garage door/gate telemetry. Features both **batch** and **real-time streaming** architectures with Kafka, Airflow orchestration, dbt transformations, and Streamlit visualization.
+End-to-end IoT analytics pipeline simulating smart garage door/gate telemetry. Features **real-time streaming** (Kafka) and **batch processing** (Airflow) architectures with dbt transformations and Streamlit visualization.
 
 **Inspired by**: Chamberlain Group's myQ smart access ecosystem
 
@@ -8,214 +8,116 @@ End-to-end IoT analytics pipeline simulating smart garage door/gate telemetry. F
 
 ## 🚀 Quick Start
 
-### **Prerequisites**
+**Prerequisites**: Python 3.9+ · PostgreSQL · Docker
 
-- Python 3.9+ · PostgreSQL · Docker · Git
-
-### **🔥 NEW: Real-Time Streaming with Kafka**
+### **Real-Time Streaming** (Recommended)
 
 ```bash
-# 1. Start Kafka infrastructure
-docker-compose -f docker-compose.kafka.yml up -d
-
-# 2. Start consumer (terminal 1)
-python streaming/kafka_consumer.py
-
-# 3. Start producer (terminal 2)
-python streaming/kafka_producer.py
-
-# 4. View dashboard
-streamlit run analytics/streamlit_app.py  # http://localhost:8501
-
-# Kafka UI: http://localhost:8090
-```
-
-📖 **[Full Streaming Guide →](streaming/README.md)**
-
----
-
-### **Batch Processing (Original)**
-
-### **Prerequisites**
-
-- Python 3.9+ · PostgreSQL · Docker (for Airflow) · Git
-
-### **Option 1: Airflow Orchestration (Recommended)**
-
-```bash
-# Setup
-git clone <your-repo-url>
+# 1. Clone and setup
+git clone https://github.com/benmobley/smart-access-events-pipeline.git
 cd smart-access-events-pipeline
-
-# Start Airflow (must stay running for scheduled execution)
-docker-compose -f docker-compose.airflow.yml --env-file .env.airflow up -d
-
-# Access Airflow UI at http://localhost:8080 (airflow/airflow)
-# Trigger manually or let it run on schedule (daily at 2 AM UTC)
-
-# Launch dashboard
-streamlit run analytics/streamlit_app.py  # http://localhost:8501
-```
-
-> **Note**: Docker must remain running continuously for Airflow scheduler to work.
-
-### **Option 2: Bash Script**
-
-```bash
-# Setup
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 
-# Run pipeline
-./orchestration/run_all.sh
+# 2. Start Kafka infrastructure
+docker-compose -f docker-compose.kafka.yml up -d
 
-# Launch dashboard
+# 3. Run producer & consumer (separate terminals)
+python streaming/kafka_consumer.py
+python streaming/kafka_producer.py
+
+# 4. Transform and visualize
+cd smart_access_dbt && dbt run && cd ..
 streamlit run analytics/streamlit_app.py
 ```
 
-<details>
-<summary><b>Manual Step-by-Step</b></summary>
+**Access**: Dashboard at http://localhost:8501 | Kafka UI at http://localhost:8090
 
-```bash
-python etl/generate_synthetic_data.py
-python etl/load_to_postgres.py
-cd smart_access_dbt && dbt run && dbt test && cd ..
-streamlit run analytics/streamlit_app.py
-```
-
-</details>
+📖 **[Streaming Setup Guide →](streaming/README.md)**
 
 ---
 
-## 📊 Data Architecture
+### **Batch Processing**
 
-### **Batch Pipeline**
+**Option 1: Airflow** (scheduled daily at 2 AM UTC)
+```bash
+docker-compose -f docker-compose.airflow.yml --env-file .env.airflow up -d
+# UI: http://localhost:8080 (airflow/airflow)
+```
 
-**Flow**: Synthetic Data → CSV → PostgreSQL → dbt → Streamlit
+**Option 2: Bash Script**
+```bash
+./orchestration/run_all.sh
+streamlit run analytics/streamlit_app.py
+```
 
-### **Streaming Pipeline** 🆕
+---
 
-**Flow**: IoT Simulator → Kafka → Consumer → PostgreSQL → dbt (Incremental) → Streamlit
+## 📊 Architecture
 
-### **Raw Layer** (`public` schema)
+**Streaming**: Kafka Producer → Kafka Broker → Consumer → PostgreSQL → dbt → Streamlit  
+**Batch**: Synthetic Generator → CSV → PostgreSQL → dbt → Streamlit
 
-- `raw_access_events` - Raw event data
-- `raw_devices` - Raw device data
-- `raw_households` - Raw household data
-- `raw_device_health` - Raw device health metrics
+### **Data Models** (Dimensional - Star Schema)
 
-### **Staging Layer** (`smart_access` schema - Views)
+**Raw Layer** (`public` schema): `raw_access_events`, `raw_devices`, `raw_households`, `raw_device_health`
 
-- `stg_access_events` - Cleaned event log (opens/closes/failures)
-- `stg_devices` - Cleaned device registry (type, model, firmware)
-- `stg_households` - Cleaned household metadata (region, timezone)
-- `stg_device_health` - Cleaned device telemetry (battery, signal, connectivity)
+**Staging** (`smart_access` schema): Cleaned views with standardized naming and data types
 
-### **Marts Layer** (`smart_access` schema - Star Schema Views)
-
-**Dimensions:**
-
-- `dim_device` - Device attributes joined with household context
-- `dim_household` - Household attributes with region and timezone
-
-**Facts:**
-
-- `fct_access_events` - Event-level grain with surrogate keys
-- `fct_device_daily_summary` - Daily aggregations (opens, closes, failures, battery, signal strength, online ratio)
+**Marts** (`smart_access` schema):
+- **Dimensions**: `dim_device`, `dim_household` (slowly changing over time)
+- **Facts**: `fct_access_events` (event grain), `fct_device_daily_summary` (aggregated metrics)
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Streaming**: Apache Kafka · Zookeeper · Kafka UI 🆕  
-**Orchestration**: Apache Airflow · Docker Compose  
-**Data Generation & ETL**: Python · Faker · pandas · SQLAlchemy · kafka-python 🆕  
-**Database**: PostgreSQL (with separate schemas for raw and transformed data)  
-**Transformation**: dbt Core (materializing models as views)  
+**Streaming**: Kafka · Zookeeper · kafka-python  
+**Orchestration**: Airflow · Docker Compose  
+**ETL**: Python · Faker · pandas · SQLAlchemy  
+**Database**: PostgreSQL  
+**Transformation**: dbt Core  
 **Visualization**: Streamlit · Plotly
 
 ---
 
-## 📈 Dashboard Features
+## 📈 Analytics Capabilities
 
-The Streamlit dashboard provides:
-
-- **KPI Metrics**: Total events, failure rate, online ratio, battery levels
-- **Interactive Filters**: Date range, region, device model, device type
-- **Visualizations**:
-  - Time series: Daily opens/closes/failures
-  - Failure analysis by model and firmware version
-  - Device health: Battery and signal strength
-  - Event distribution: Type breakdown and trigger sources
-- **Data Tables**: Recent events and daily summaries
-
----
-
-## 💡 Example Analytics
-
-**Operational**: Which device models have highest failure rates?  
-**User Behavior**: What are peak usage hours for garage operations?  
-**Device Health**: Which devices need battery replacement or have poor connectivity?  
-**Capacity**: What's the event volume trend over the past week?
+**Metrics**: Event volumes, failure rates, device health (battery/signal), online ratios  
+**Visualizations**: Time series trends, failure analysis by model/firmware, health monitoring  
+**Filtering**: Date ranges, regions, device types/models  
+**Use Cases**: Predictive maintenance, operational monitoring, user behavior analysis
 
 ---
 
 ## 📁 Project Structure
 
 ```
-smart-access-events-pipeline/
-├── streaming/ 🆕
-│   ├── kafka_producer.py                 # Real-time event generator
-│   ├── kafka_consumer.py                 # Kafka → PostgreSQL consumer
-│   └── README.md                         # Streaming setup guide
-├── airflow/
-│   ├── dags/
-│   │   ├── smart_access_pipeline_dag.py       # Batch DAG
-│   │   └── smart_access_streaming_dag.py 🆕   # Streaming DAG (incremental)
-│   ├── Dockerfile                        # Custom Airflow image
-│   └── logs/                             # Execution logs
-├── orchestration/
-│   └── run_all.sh                        # Bash script for batch runs
-├── etl/
-│   ├── generate_synthetic_data.py        # Batch data generator
-│   └── load_to_postgres.py               # CSV → PostgreSQL loader
-├── smart_access_dbt/
-│   └── models/
-│       ├── staging/                      # Cleaned source data (views)
-│       └── marts/                        # Analytics models (views)
-├── analytics/
-│   └── streamlit_app.py                  # Interactive dashboard
-├── docker-compose.kafka.yml 🆕           # Kafka infrastructure
-├── docker-compose.airflow.yml            # Airflow orchestration
-└── data/raw/                             # Generated CSV files (batch)
+├── streaming/           # Kafka producer/consumer, real-time ingestion
+├── airflow/dags/        # Batch (daily) and streaming (15min) DAGs
+├── etl/                 # Synthetic data generation and CSV loading
+├── smart_access_dbt/    # dbt models (staging + marts)
+├── analytics/           # Streamlit dashboard
+├── orchestration/       # Bash automation script
+└── docker-compose.*     # Kafka and Airflow infrastructure
 ```
 
 ---
 
 ## 🧪 Data Quality
 
-dbt tests validate:
-
-- **Uniqueness**: Primary keys (event_id, device_key, household_key)
-- **Not null constraints**: Critical fields across all models
-- **Referential integrity**: Foreign key relationships between facts and dimensions
-- **Accepted values**: Event types restricted to valid values (open, close, command_failed)
-
-Run: `dbt test` (18 tests included)
+18 dbt tests validate uniqueness, not-null constraints, referential integrity, and accepted values.
 
 ---
 
-## 🔮 Future Enhancements
+## 🔮 Roadmap
 
-- **Materialization**: Convert views to tables for better performance at scale
-- **Incremental Models**: Process only new/changed data in dbt
-- ~~**Streaming**: Real-time ingestion with Kafka~~ ✅ **IMPLEMENTED**
-- **SCD Type 2**: Track dimension changes over time with dbt snapshots
-- **ML**: Predictive maintenance based on device health patterns
-- **Advanced Analytics**: Geospatial analysis, user behavior clustering
-- **Monitoring**: Data quality monitoring with Great Expectations
-- **Schema Registry**: Confluent Schema Registry for event schema evolution
+- ✅ Kafka real-time streaming
+- 🔄 Incremental dbt models for streaming data
+- 🔄 SCD Type 2 for dimension history tracking
+- 🔄 Predictive maintenance ML models
+- 🔄 Data quality monitoring (Great Expectations)
 
 ---
 
-**Portfolio Project** | Built to demonstrate modern data engineering practices
+**Portfolio Project** | Modern data engineering with streaming and batch architectures
