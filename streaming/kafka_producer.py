@@ -39,9 +39,9 @@ class SmartAccessProducer:
             value_serializer=lambda v: json.dumps(v).encode('utf-8'),
             key_serializer=lambda k: k.encode('utf-8') if k else None
         )
+        self.last_health_check = {}
         self.households = self._generate_households()
         self.devices = self._generate_devices()
-        self.last_health_check = {}
         
     def _generate_households(self) -> List[Dict]:
         """Generate household data."""

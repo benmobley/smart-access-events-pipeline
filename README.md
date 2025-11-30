@@ -90,9 +90,11 @@ streamlit run analytics/streamlit_app.py
 ## 📊 Data Architecture
 
 ### **Batch Pipeline**
+
 **Flow**: Synthetic Data → CSV → PostgreSQL → dbt → Streamlit
 
 ### **Streaming Pipeline** 🆕
+
 **Flow**: IoT Simulator → Kafka → Consumer → PostgreSQL → dbt (Incremental) → Streamlit
 
 ### **Raw Layer** (`public` schema)

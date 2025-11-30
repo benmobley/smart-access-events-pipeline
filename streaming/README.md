@@ -17,6 +17,7 @@ IoT Devices (Simulated) → Kafka Producer → Kafka Broker → Kafka Consumer �
 ```
 
 **Components:**
+
 - **Kafka Producer** (`streaming/kafka_producer.py`): Simulates real-time device events
 - **Kafka Broker**: Message queue for event streaming
 - **Kafka Consumer** (`streaming/kafka_consumer.py`): Writes events to PostgreSQL
@@ -82,10 +83,10 @@ streamlit run analytics/streamlit_app.py
 
 ## Kafka Topics
 
-| Topic | Purpose | Key | Value Schema |
-|-------|---------|-----|--------------|
-| `smart-access.events` | Access events (open/close/fail) | `device_id` | `{event_id, device_id, event_ts, event_type, trigger_source}` |
-| `smart-access.health` | Device health metrics | `device_id` | `{device_id, reported_at, battery_pct, signal_strength_dbm, is_online}` |
+| Topic                 | Purpose                         | Key         | Value Schema                                                            |
+| --------------------- | ------------------------------- | ----------- | ----------------------------------------------------------------------- |
+| `smart-access.events` | Access events (open/close/fail) | `device_id` | `{event_id, device_id, event_ts, event_type, trigger_source}`           |
+| `smart-access.health` | Device health metrics           | `device_id` | `{device_id, reported_at, battery_pct, signal_strength_dbm, is_online}` |
 
 ---
 
@@ -138,7 +139,7 @@ BATCH_TIMEOUT = 5       # Seconds before forcing batch commit
 ```bash
 # Check row counts
 psql -U postgres -d smart_access -c "
-SELECT 
+SELECT
   (SELECT COUNT(*) FROM raw_access_events) as events,
   (SELECT COUNT(*) FROM raw_device_health) as health;
 "
@@ -167,6 +168,7 @@ docker-compose -f docker-compose.airflow.yml down
 **Issue**: `KafkaError: NoBrokersAvailable`
 
 **Solution**:
+
 ```bash
 # Ensure Kafka is running
 docker ps --filter "name=kafka"
@@ -180,6 +182,7 @@ docker logs kafka --tail 50
 **Issue**: No data appearing in PostgreSQL
 
 **Solution**:
+
 - Check PostgreSQL is running on localhost:5432
 - Verify tables exist: `\dt` in psql
 - Check consumer logs for errors
@@ -190,6 +193,7 @@ docker logs kafka --tail 50
 **Issue**: Streaming DAG not showing up
 
 **Solution**:
+
 - Ensure `smart_access_streaming_dag.py` is in `airflow/dags/`
 - Check Airflow scheduler logs: `docker logs airflow-scheduler`
 - Manually trigger from UI to test
@@ -201,6 +205,7 @@ docker logs kafka --tail 50
 **For High Throughput:**
 
 1. Increase consumer batch size:
+
    ```python
    BATCH_SIZE = 500
    ```
@@ -214,6 +219,7 @@ docker logs kafka --tail 50
 **For Low Latency:**
 
 1. Decrease batch timeout:
+
    ```python
    BATCH_TIMEOUT = 1  # 1 second
    ```
@@ -239,13 +245,13 @@ docker logs kafka --tail 50
 
 ## Batch vs Streaming Comparison
 
-| Aspect | Batch (Original) | Streaming (New) |
-|--------|------------------|-----------------|
-| **Data Flow** | CSV → Load → Transform | Continuous → Transform |
-| **Latency** | Hours/Daily | Seconds/Minutes |
-| **Schedule** | Daily at 2 AM | Every 15 minutes |
-| **Orchestration** | Airflow full pipeline | Airflow transforms only |
-| **Use Case** | Historical analysis | Real-time monitoring |
+| Aspect            | Batch (Original)       | Streaming (New)         |
+| ----------------- | ---------------------- | ----------------------- |
+| **Data Flow**     | CSV → Load → Transform | Continuous → Transform  |
+| **Latency**       | Hours/Daily            | Seconds/Minutes         |
+| **Schedule**      | Daily at 2 AM          | Every 15 minutes        |
+| **Orchestration** | Airflow full pipeline  | Airflow transforms only |
+| **Use Case**      | Historical analysis    | Real-time monitoring    |
 
 ---
 

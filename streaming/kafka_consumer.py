@@ -77,12 +77,22 @@ class SmartAccessConsumer:
         
         with self.engine.begin() as conn:
             for event in events:
+                # Map Kafka message to database schema
+                db_event = {
+                    'event_id': event['event_id'],
+                    'device_id': event['device_id'],
+                    'user_id': event.get('user_id', 1),  # Default user_id if not provided
+                    'event_type': event['event_type'],
+                    'trigger_source': event['trigger_source'],
+                    'created_at': event['event_ts'],  # Map event_ts to created_at
+                    'lat': event.get('lat', 0.0),  # Default lat/lon if not provided
+                    'lon': event.get('lon', 0.0)
+                }
                 conn.execute(text("""
                     INSERT INTO raw_access_events 
-                    (event_id, device_id, event_ts, event_type, trigger_source)
-                    VALUES (:event_id, :device_id, :event_ts, :event_type, :trigger_source)
-                    ON CONFLICT (event_id) DO NOTHING
-                """), event)
+                    (event_id, device_id, user_id, event_type, trigger_source, created_at, lat, lon)
+                    VALUES (:event_id, :device_id, :user_id, :event_type, :trigger_source, :created_at, :lat, :lon)
+                """), db_event)
         
         self.stats['access_events'] += len(events)
     
