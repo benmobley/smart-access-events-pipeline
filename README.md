@@ -1,12 +1,40 @@
 # Smart Access Events Pipeline
 
-End-to-end IoT analytics pipeline simulating smart garage door/gate telemetry. Demonstrates synthetic data generation, Python ETL, PostgreSQL warehousing, dbt transformations, and Streamlit visualization.
+End-to-end IoT analytics pipeline simulating smart garage door/gate telemetry. Features both **batch** and **real-time streaming** architectures with Kafka, Airflow orchestration, dbt transformations, and Streamlit visualization.
 
 **Inspired by**: Chamberlain Group's myQ smart access ecosystem
 
 ---
 
 ## 🚀 Quick Start
+
+### **Prerequisites**
+
+- Python 3.9+ · PostgreSQL · Docker · Git
+
+### **🔥 NEW: Real-Time Streaming with Kafka**
+
+```bash
+# 1. Start Kafka infrastructure
+docker-compose -f docker-compose.kafka.yml up -d
+
+# 2. Start consumer (terminal 1)
+python streaming/kafka_consumer.py
+
+# 3. Start producer (terminal 2)
+python streaming/kafka_producer.py
+
+# 4. View dashboard
+streamlit run analytics/streamlit_app.py  # http://localhost:8501
+
+# Kafka UI: http://localhost:8090
+```
+
+📖 **[Full Streaming Guide →](streaming/README.md)**
+
+---
+
+### **Batch Processing (Original)**
 
 ### **Prerequisites**
 
@@ -61,7 +89,11 @@ streamlit run analytics/streamlit_app.py
 
 ## 📊 Data Architecture
 
-**Pipeline Flow**: Synthetic Data → PostgreSQL (Raw Tables) → dbt (Views in `smart_access` schema) → Streamlit
+### **Batch Pipeline**
+**Flow**: Synthetic Data → CSV → PostgreSQL → dbt → Streamlit
+
+### **Streaming Pipeline** 🆕
+**Flow**: IoT Simulator → Kafka → Consumer → PostgreSQL → dbt (Incremental) → Streamlit
 
 ### **Raw Layer** (`public` schema)
 
@@ -93,8 +125,9 @@ streamlit run analytics/streamlit_app.py
 
 ## 🛠️ Tech Stack
 
+**Streaming**: Apache Kafka · Zookeeper · Kafka UI 🆕  
 **Orchestration**: Apache Airflow · Docker Compose  
-**Data Generation & ETL**: Python · Faker · pandas · SQLAlchemy  
+**Data Generation & ETL**: Python · Faker · pandas · SQLAlchemy · kafka-python 🆕  
 **Database**: PostgreSQL (with separate schemas for raw and transformed data)  
 **Transformation**: dbt Core (materializing models as views)  
 **Visualization**: Streamlit · Plotly
@@ -129,24 +162,30 @@ The Streamlit dashboard provides:
 
 ```
 smart-access-events-pipeline/
+├── streaming/ 🆕
+│   ├── kafka_producer.py                 # Real-time event generator
+│   ├── kafka_consumer.py                 # Kafka → PostgreSQL consumer
+│   └── README.md                         # Streaming setup guide
 ├── airflow/
 │   ├── dags/
-│   │   └── smart_access_pipeline_dag.py  # Airflow DAG for scheduled runs
-│   ├── logs/                             # Airflow execution logs
-│   └── plugins/                          # Custom Airflow plugins
+│   │   ├── smart_access_pipeline_dag.py       # Batch DAG
+│   │   └── smart_access_streaming_dag.py 🆕   # Streaming DAG (incremental)
+│   ├── Dockerfile                        # Custom Airflow image
+│   └── logs/                             # Execution logs
 ├── orchestration/
-│   └── run_all.sh                        # Bash script for manual runs
+│   └── run_all.sh                        # Bash script for batch runs
 ├── etl/
-│   ├── generate_synthetic_data.py        # Synthetic data generator
-│   └── load_to_postgres.py               # Loads CSVs to PostgreSQL
+│   ├── generate_synthetic_data.py        # Batch data generator
+│   └── load_to_postgres.py               # CSV → PostgreSQL loader
 ├── smart_access_dbt/
 │   └── models/
 │       ├── staging/                      # Cleaned source data (views)
 │       └── marts/                        # Analytics models (views)
 ├── analytics/
 │   └── streamlit_app.py                  # Interactive dashboard
-├── docker-compose.airflow.yml            # Airflow Docker setup
-└── data/raw/                             # Generated CSV files
+├── docker-compose.kafka.yml 🆕           # Kafka infrastructure
+├── docker-compose.airflow.yml            # Airflow orchestration
+└── data/raw/                             # Generated CSV files (batch)
 ```
 
 ---
@@ -168,11 +207,12 @@ Run: `dbt test` (18 tests included)
 
 - **Materialization**: Convert views to tables for better performance at scale
 - **Incremental Models**: Process only new/changed data in dbt
-- **Streaming**: Real-time ingestion with Kafka
+- ~~**Streaming**: Real-time ingestion with Kafka~~ ✅ **IMPLEMENTED**
 - **SCD Type 2**: Track dimension changes over time with dbt snapshots
 - **ML**: Predictive maintenance based on device health patterns
 - **Advanced Analytics**: Geospatial analysis, user behavior clustering
 - **Monitoring**: Data quality monitoring with Great Expectations
+- **Schema Registry**: Confluent Schema Registry for event schema evolution
 
 ---
 
