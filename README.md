@@ -1,8 +1,8 @@
 # Smart Access Events Pipeline
 
-End-to-end IoT analytics pipeline simulating smart garage door/gate telemetry. Features **real-time streaming** (Kafka) and **batch processing** (Airflow) architectures with dbt transformations and Streamlit visualization.
+End-to-end IoT analytics pipeline simulating smart garage door telemetry with **real-time streaming** (Kafka) and **batch processing** (Airflow). Built with dbt transformations and Streamlit visualization.
 
-**Inspired by**: Chamberlain Group's myQ smart access ecosystem
+**Inspired by**: Chamberlain Group's myQ ecosystem
 
 ---
 
@@ -10,42 +10,47 @@ End-to-end IoT analytics pipeline simulating smart garage door/gate telemetry. F
 
 **Prerequisites**: Python 3.9+ · PostgreSQL · Docker
 
-### **Real-Time Streaming** (Recommended)
+### **Streaming Workflow** (Real-Time)
 
 ```bash
-# 1. Clone and setup
+# 1. Setup environment
 git clone https://github.com/benmobley/smart-access-events-pipeline.git
 cd smart-access-events-pipeline
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 
-# 2. Start Kafka infrastructure
+# 2. Create database and load initial schema
+createdb smart_access
+python etl/generate_synthetic_data.py
+python etl/load_to_postgres.py
+
+# 3. Start Kafka
 docker-compose -f docker-compose.kafka.yml up -d
 
-# 3. Run producer & consumer (separate terminals)
-python streaming/kafka_consumer.py
-python streaming/kafka_producer.py
+# 4. Run streaming pipeline (2 terminals)
+python streaming/kafka_consumer.py    # Terminal 1: Consumes from Kafka → PostgreSQL
+python streaming/kafka_producer.py    # Terminal 2: Generates events → Kafka
 
-# 4. Transform and visualize
+# 5. Transform and visualize
 cd smart_access_dbt && dbt run && cd ..
 streamlit run analytics/streamlit_app.py
 ```
 
-**Access**: Dashboard at http://localhost:8501 | Kafka UI at http://localhost:8090
+**Access**: Dashboard http://localhost:8501 | Kafka UI http://localhost:8090
 
-📖 **[Streaming Setup Guide →](streaming/README.md)**
+📖 **[Full Streaming Guide →](streaming/README.md)**
 
 ---
 
-### **Batch Processing**
+### **Batch Workflow** (Scheduled)
 
-**Option 1: Airflow** (scheduled daily at 2 AM UTC)
+**Option 1: Airflow** (runs daily at 2 AM UTC)
 ```bash
 docker-compose -f docker-compose.airflow.yml --env-file .env.airflow up -d
-# UI: http://localhost:8080 (airflow/airflow)
+# Airflow UI: http://localhost:8080 (airflow/airflow)
 ```
 
-**Option 2: Bash Script**
+**Option 2: Manual Bash Script**
 ```bash
 ./orchestration/run_all.sh
 streamlit run analytics/streamlit_app.py
@@ -55,18 +60,20 @@ streamlit run analytics/streamlit_app.py
 
 ## 📊 Architecture
 
-**Streaming**: Kafka Producer → Kafka Broker → Consumer → PostgreSQL → dbt → Streamlit  
-**Batch**: Synthetic Generator → CSV → PostgreSQL → dbt → Streamlit
+### **Data Flow**
 
-### **Data Models** (Dimensional - Star Schema)
+**Streaming**: IoT Simulator → Kafka Topics → Consumer → PostgreSQL → dbt (incremental) → Dashboard  
+**Batch**: Synthetic Generator → CSV Files → PostgreSQL → dbt (full refresh) → Dashboard
 
-**Raw Layer** (`public` schema): `raw_access_events`, `raw_devices`, `raw_households`, `raw_device_health`
+### **Data Models** (Star Schema)
 
-**Staging** (`smart_access` schema): Cleaned views with standardized naming and data types
+**Raw** (`public` schema): Landing tables for events, devices, households, health metrics
+
+**Staging** (`smart_access` schema): Cleaned, standardized views
 
 **Marts** (`smart_access` schema):
-- **Dimensions**: `dim_device`, `dim_household` (slowly changing over time)
-- **Facts**: `fct_access_events` (event grain), `fct_device_daily_summary` (aggregated metrics)
+- **Dimensions**: `dim_device`, `dim_household`
+- **Facts**: `fct_access_events` (event-level), `fct_device_daily_summary` (aggregated)
 
 ---
 

@@ -10386,3 +10386,1232 @@ File Path                                        PID    Runtime      # DAGs    #
 /opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-11-30T21:17:09
 /opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-11-30T21:17:09
 ================================================================================
+[2025-12-01T15:53:03.764+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-12-01T15:53:03.765+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-12-01T15:53:03.765+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-12-01T15:53:03.766+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T15:53:03.774+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T15:53:27.985+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.08s           2025-12-01T15:53:03
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.09s           2025-12-01T15:53:03
+================================================================================
+[2025-12-01T15:53:58.290+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T15:53:34
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T15:53:34
+================================================================================
+[2025-12-01T15:54:28.558+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T15:54:04
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T15:54:04
+================================================================================
+[2025-12-01T15:54:58.868+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T15:54:34
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T15:54:34
+================================================================================
+[2025-12-01T15:55:29.125+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.05s           2025-12-01T15:55:04
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T15:55:04
+================================================================================
+[2025-12-01T15:55:59.420+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T15:55:35
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T15:55:35
+================================================================================
+[2025-12-01T15:56:29.655+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T15:56:05
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T15:56:05
+================================================================================
+[2025-12-01T15:56:59.931+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T15:56:35
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T15:56:35
+================================================================================
+[2025-12-01T15:57:30.274+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T15:57:06
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T15:57:06
+================================================================================
+[2025-12-01T15:58:00.527+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T15:57:36
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T15:57:36
+================================================================================
+[2025-12-01T15:58:04.554+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T15:58:04.558+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T15:58:30.898+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T15:58:06
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T15:58:06
+================================================================================
+[2025-12-01T15:59:01.233+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T15:58:37
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T15:58:37
+================================================================================
+[2025-12-01T15:59:31.580+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T15:59:07
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T15:59:07
+================================================================================
+[2025-12-01T16:00:01.930+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T15:59:37
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T15:59:37
+================================================================================
+[2025-12-01T16:00:32.322+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:00:08
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:00:08
+================================================================================
+[2025-12-01T16:01:02.688+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:00:38
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:00:38
+================================================================================
+[2025-12-01T16:01:33.031+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:01:08
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:01:08
+================================================================================
+[2025-12-01T16:02:03.383+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:01:39
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:01:39
+================================================================================
+[2025-12-01T16:02:33.723+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:02:09
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:02:09
+================================================================================
+[2025-12-01T16:03:04.099+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T16:02:39
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:02:39
+================================================================================
+[2025-12-01T16:03:05.105+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T16:03:05.110+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T16:03:34.432+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:03:10
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T16:03:10
+================================================================================
+[2025-12-01T16:04:04.737+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:03:40
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T16:03:40
+================================================================================
+[2025-12-01T16:04:35.141+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:04:10
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T16:04:10
+================================================================================
+[2025-12-01T16:05:05.587+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T16:04:41
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:04:41
+================================================================================
+[2025-12-01T16:06:04.653+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.05s           2025-12-01T16:05:57
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T16:05:57
+================================================================================
+[2025-12-01T16:10:52.452+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T16:10:52.457+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T16:10:59.612+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T16:10:52
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:10:52
+================================================================================
+[2025-12-01T16:11:29.886+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:11:22
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:11:22
+================================================================================
+[2025-12-01T16:26:52.231+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T16:26:52.234+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T16:27:00.372+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:26:52
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T16:26:52
+================================================================================
+[2025-12-01T16:27:30.746+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:27:22
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:27:22
+================================================================================
+[2025-12-01T16:28:01.103+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:27:53
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:27:53
+================================================================================
+[2025-12-01T16:28:31.417+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.05s           2025-12-01T16:28:23
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T16:28:23
+================================================================================
+[2025-12-01T16:29:01.731+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.05s           2025-12-01T16:28:53
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T16:28:53
+================================================================================
+[2025-12-01T16:29:32.085+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:29:24
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:29:24
+================================================================================
+[2025-12-01T16:32:56.823+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T16:32:56.830+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T16:33:06.958+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:32:56
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:32:56
+================================================================================
+[2025-12-01T16:34:34.561+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T16:34:24
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:34:24
+================================================================================
+[2025-12-01T16:35:04.895+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T16:34:54
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.08s           2025-12-01T16:34:54
+================================================================================
+[2025-12-01T16:37:39.591+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:37:28
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T16:37:28
+================================================================================
+[2025-12-01T16:37:57.749+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T16:37:57.757+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T16:38:09.947+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:37:58
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T16:37:58
+================================================================================
+[2025-12-01T16:38:40.416+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:38:29
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:38:29
+================================================================================
+[2025-12-01T16:39:26.523+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T16:39:14
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.08s           2025-12-01T16:39:14
+================================================================================
+[2025-12-01T16:39:56.894+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:39:44
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T16:39:44
+================================================================================
+[2025-12-01T16:40:36.660+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:40:23
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:40:23
+================================================================================
+[2025-12-01T16:41:59.959+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:41:46
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:41:46
+================================================================================
+[2025-12-01T16:42:30.277+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:42:17
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:42:17
+================================================================================
+[2025-12-01T16:43:07.817+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T16:43:07.825+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T16:43:22.002+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:43:07
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T16:43:07
+================================================================================
+[2025-12-01T16:44:42.068+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:44:27
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:44:27
+================================================================================
+[2025-12-01T16:45:12.383+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:44:58
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:44:58
+================================================================================
+[2025-12-01T16:47:26.167+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T16:47:11
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:47:11
+================================================================================
+[2025-12-01T16:47:56.568+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:47:41
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:47:41
+================================================================================
+[2025-12-01T16:48:08.698+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T16:48:08.703+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T16:49:08.005+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:48:52
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T16:48:52
+================================================================================
+[2025-12-01T16:50:27.311+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:50:11
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:50:11
+================================================================================
+[2025-12-01T16:50:57.689+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:50:41
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:50:41
+================================================================================
+[2025-12-01T16:52:05.650+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:51:48
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T16:51:48
+================================================================================
+[2025-12-01T16:52:36.015+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:52:18
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:52:18
+================================================================================
+[2025-12-01T16:53:06.304+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:52:49
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:52:49
+================================================================================
+[2025-12-01T16:53:09.329+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T16:53:09.334+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T16:54:07.598+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T16:53:50
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.08s           2025-12-01T16:53:50
+================================================================================
+[2025-12-01T16:54:37.969+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T16:54:20
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:54:20
+================================================================================
+[2025-12-01T16:55:08.319+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T16:54:51
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:54:51
+================================================================================
+[2025-12-01T16:55:38.648+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T16:55:21
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:55:21
+================================================================================
+[2025-12-01T16:56:09.006+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:55:51
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:55:51
+================================================================================
+[2025-12-01T16:56:39.377+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T16:56:22
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.08s           2025-12-01T16:56:22
+================================================================================
+[2025-12-01T16:57:09.650+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:56:52
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:56:52
+================================================================================
+[2025-12-01T16:57:39.913+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T16:57:22
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.08s           2025-12-01T16:57:22
+================================================================================
+[2025-12-01T16:58:10.181+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T16:58:10.185+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T16:58:10.191+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:57:53
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:57:53
+================================================================================
+[2025-12-01T16:58:40.469+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:58:23
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:58:23
+================================================================================
+[2025-12-01T16:59:10.802+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T16:58:53
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T16:58:53
+================================================================================
+[2025-12-01T16:59:41.172+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T16:59:23
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T16:59:23
+================================================================================
+[2025-12-01T17:00:11.439+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T16:59:54
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.08s           2025-12-01T16:59:54
+================================================================================
+[2025-12-01T17:00:41.782+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T17:00:24
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:00:24
+================================================================================
+[2025-12-01T17:01:12.156+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.08s           2025-12-01T17:00:54
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.08s           2025-12-01T17:00:54
+================================================================================
+[2025-12-01T17:01:42.453+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:01:25
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T17:01:25
+================================================================================
+[2025-12-01T17:02:12.790+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:01:55
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:01:55
+================================================================================
+[2025-12-01T17:02:43.111+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:02:25
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:02:25
+================================================================================
+[2025-12-01T17:03:10.433+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T17:03:10.443+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T17:03:13.479+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:02:56
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T17:02:56
+================================================================================
+[2025-12-01T17:03:43.817+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:03:26
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:03:26
+================================================================================
+[2025-12-01T17:04:14.071+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:03:56
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:03:56
+================================================================================
+[2025-12-01T17:04:44.373+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T17:04:27
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:04:27
+================================================================================
+[2025-12-01T17:05:14.649+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:04:57
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:04:57
+================================================================================
+[2025-12-01T17:05:44.910+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.05s           2025-12-01T17:05:27
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T17:05:27
+================================================================================
+[2025-12-01T17:06:15.270+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T17:05:58
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:05:58
+================================================================================
+[2025-12-01T17:06:45.577+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:06:28
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:06:28
+================================================================================
+[2025-12-01T17:07:15.937+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:06:58
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T17:06:58
+================================================================================
+[2025-12-01T17:07:46.279+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:07:29
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:07:29
+================================================================================
+[2025-12-01T17:08:10.569+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T17:08:10.578+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T17:08:16.634+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:07:59
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T17:07:59
+================================================================================
+[2025-12-01T17:08:46.959+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:08:29
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T17:08:29
+================================================================================
+[2025-12-01T17:09:17.277+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T17:09:00
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:09:00
+================================================================================
+[2025-12-01T17:09:47.594+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:09:30
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:09:30
+================================================================================
+[2025-12-01T17:10:17.854+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:10:00
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:10:00
+================================================================================
+[2025-12-01T17:10:48.118+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:10:31
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:10:31
+================================================================================
+[2025-12-01T17:11:18.437+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:11:01
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:11:01
+================================================================================
+[2025-12-01T17:11:48.678+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:11:31
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T17:11:31
+================================================================================
+[2025-12-01T17:12:19.031+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T17:12:01
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:12:01
+================================================================================
+[2025-12-01T17:12:49.348+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:12:32
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:12:32
+================================================================================
+[2025-12-01T17:13:10.622+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T17:13:10.630+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T17:13:19.715+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:13:02
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:13:02
+================================================================================
+[2025-12-01T17:13:50.070+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:13:32
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:13:32
+================================================================================
+[2025-12-01T17:14:20.430+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:14:03
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T17:14:03
+================================================================================
+[2025-12-01T17:14:50.745+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:14:33
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:14:33
+================================================================================
+[2025-12-01T17:15:21.070+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:15:03
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:15:03
+================================================================================
+[2025-12-01T17:15:51.390+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:15:34
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:15:34
+================================================================================
+[2025-12-01T17:16:21.755+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T17:16:04
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T17:16:04
+================================================================================
+[2025-12-01T17:16:52.110+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T17:16:34
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.08s           2025-12-01T17:16:34
+================================================================================
+[2025-12-01T17:17:22.457+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:17:05
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:17:05
+================================================================================
+[2025-12-01T17:17:52.815+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T17:17:35
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.08s           2025-12-01T17:17:35
+================================================================================
+[2025-12-01T17:18:11.053+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T17:18:11.062+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T17:18:23.164+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T17:18:06
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:18:06
+================================================================================
+[2025-12-01T17:18:53.446+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:18:36
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:18:36
+================================================================================
+[2025-12-01T17:19:23.805+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:19:06
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:19:06
+================================================================================
+[2025-12-01T17:19:54.068+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T17:19:36
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:19:36
+================================================================================
+[2025-12-01T17:20:24.442+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:20:07
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:20:07
+================================================================================
+[2025-12-01T17:20:54.787+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:20:37
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:20:37
+================================================================================
+[2025-12-01T17:21:25.125+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:21:07
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:21:07
+================================================================================
+[2025-12-01T17:21:55.443+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:21:38
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:21:38
+================================================================================
+[2025-12-01T17:22:25.772+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:22:08
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:22:08
+================================================================================
+[2025-12-01T17:22:56.126+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:22:38
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:22:38
+================================================================================
+[2025-12-01T17:23:11.298+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T17:23:11.304+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T17:23:26.436+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:23:09
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.06s           2025-12-01T17:23:09
+================================================================================
+[2025-12-01T17:23:56.739+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T17:23:39
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:23:39
+================================================================================
+[2025-12-01T17:24:27.069+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:24:09
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:24:09
+================================================================================
+[2025-12-01T17:24:57.396+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:24:40
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:24:40
+================================================================================
+[2025-12-01T17:25:27.677+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:25:10
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:25:10
+================================================================================
+[2025-12-01T17:25:57.988+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:25:40
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:25:40
+================================================================================
+[2025-12-01T17:26:28.326+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:26:11
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:26:11
+================================================================================
+[2025-12-01T17:26:58.638+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:26:41
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:26:41
+================================================================================
+[2025-12-01T17:27:28.972+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T17:27:11
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:27:11
+================================================================================
+[2025-12-01T17:27:59.278+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:27:42
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:27:42
+================================================================================
+[2025-12-01T17:28:11.371+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T17:28:11.377+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T17:28:29.538+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:28:12
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:28:12
+================================================================================
+[2025-12-01T17:28:59.816+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:28:42
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:28:42
+================================================================================
+[2025-12-01T17:29:30.121+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T17:29:12
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T17:29:12
+================================================================================
+[2025-12-01T17:30:00.399+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T17:29:43
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.08s           2025-12-01T17:29:43
+================================================================================
+[2025-12-01T17:30:30.597+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.05s           2025-12-01T17:30:13
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.05s           2025-12-01T17:30:13
+================================================================================
+[2025-12-01T17:30:49.505+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-12-01T23:35:41.351+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-12-01T23:35:41.352+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-12-01T23:35:41.352+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-12-01T23:35:41.352+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T23:35:41.354+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T23:36:05.583+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.08s           2025-12-01T23:35:41
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.08s           2025-12-01T23:35:41
+================================================================================
+[2025-12-01T23:36:19.034+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-12-01T23:39:49.680+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-12-01T23:39:49.681+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-12-01T23:39:49.681+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-12-01T23:39:49.681+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-12-01T23:39:49.683+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-01T23:40:12.940+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.07s           2025-12-01T23:39:49
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T23:39:49
+================================================================================
+[2025-12-01T23:40:43.210+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/smart_access_pipeline_dag.py                            1           0  0.06s           2025-12-01T23:40:20
+/opt/airflow/dags/smart_access_streaming_dag.py                           1           0  0.07s           2025-12-01T23:40:20
+================================================================================
+[2025-12-01T23:40:49.323+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15

@@ -18,7 +18,7 @@ import psycopg2
 # Configuration
 KAFKA_BOOTSTRAP_SERVERS = ['localhost:9092']
 KAFKA_GROUP_ID = 'smart-access-consumer-group'
-DATABASE_URL = "postgresql://postgres:postgres@localhost:5432/smart_access"
+DATABASE_URL = "postgresql://benmobley:@localhost:5432/smart_access"
 
 TOPICS = {
     'access_events': 'smart-access.events',

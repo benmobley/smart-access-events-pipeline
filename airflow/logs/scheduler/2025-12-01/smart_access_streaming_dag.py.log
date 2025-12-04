@@ -1,0 +1,938 @@
+[2025-12-01T15:53:03.803+0000] {processor.py:161} INFO - Started process (PID=172) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:53:03.804+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T15:53:03.805+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:53:03.805+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:53:03.814+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:53:03.850+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:53:03.850+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T15:53:03.864+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:53:03.864+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:30:00+00:00, run_after=2025-12-01T15:45:00+00:00
+[2025-12-01T15:53:03.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.076 seconds
+[2025-12-01T15:53:34.029+0000] {processor.py:161} INFO - Started process (PID=221) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:53:34.030+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T15:53:34.030+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:53:34.030+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:53:34.042+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:53:34.057+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:53:34.057+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T15:53:34.067+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:53:34.067+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:30:00+00:00, run_after=2025-12-01T15:45:00+00:00
+[2025-12-01T15:53:34.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.050 seconds
+[2025-12-01T15:54:04.343+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:54:04.344+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T15:54:04.344+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:54:04.344+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:54:04.352+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:54:04.367+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:54:04.367+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T15:54:04.380+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:54:04.380+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:30:00+00:00, run_after=2025-12-01T15:45:00+00:00
+[2025-12-01T15:54:04.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.050 seconds
+[2025-12-01T15:54:34.630+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:54:34.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T15:54:34.631+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:54:34.631+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:54:34.642+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:54:34.658+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:54:34.658+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T15:54:34.669+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:54:34.669+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:30:00+00:00, run_after=2025-12-01T15:45:00+00:00
+[2025-12-01T15:54:34.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T15:55:04.925+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:55:04.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T15:55:04.926+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:55:04.926+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:55:04.934+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:55:04.950+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:55:04.950+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T15:55:04.959+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:55:04.959+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:30:00+00:00, run_after=2025-12-01T15:45:00+00:00
+[2025-12-01T15:55:04.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.046 seconds
+[2025-12-01T15:55:35.180+0000] {processor.py:161} INFO - Started process (PID=290) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:55:35.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T15:55:35.182+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:55:35.182+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:55:35.191+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:55:35.209+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:55:35.209+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T15:55:35.219+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:55:35.219+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:30:00+00:00, run_after=2025-12-01T15:45:00+00:00
+[2025-12-01T15:55:35.229+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.052 seconds
+[2025-12-01T15:56:05.484+0000] {processor.py:161} INFO - Started process (PID=306) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:56:05.485+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T15:56:05.485+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:56:05.485+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:56:05.495+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:56:05.513+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:56:05.513+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T15:56:05.523+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:56:05.523+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:30:00+00:00, run_after=2025-12-01T15:45:00+00:00
+[2025-12-01T15:56:05.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.051 seconds
+[2025-12-01T15:56:35.715+0000] {processor.py:161} INFO - Started process (PID=322) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:56:35.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T15:56:35.716+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:56:35.716+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:56:35.728+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:56:35.743+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:56:35.743+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T15:56:35.756+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:56:35.756+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:30:00+00:00, run_after=2025-12-01T15:45:00+00:00
+[2025-12-01T15:56:35.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.054 seconds
+[2025-12-01T15:57:05.990+0000] {processor.py:161} INFO - Started process (PID=338) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:57:05.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T15:57:05.991+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:57:05.990+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:57:06.000+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:57:06.015+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:57:06.015+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T15:57:06.027+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:57:06.027+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:30:00+00:00, run_after=2025-12-01T15:45:00+00:00
+[2025-12-01T15:57:06.040+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T15:57:36.336+0000] {processor.py:161} INFO - Started process (PID=354) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:57:36.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T15:57:36.337+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:57:36.336+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:57:36.347+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:57:36.362+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:57:36.362+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T15:57:36.372+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:57:36.372+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:30:00+00:00, run_after=2025-12-01T15:45:00+00:00
+[2025-12-01T15:57:36.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.049 seconds
+[2025-12-01T15:58:06.599+0000] {processor.py:161} INFO - Started process (PID=370) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:58:06.600+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T15:58:06.601+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:58:06.600+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:58:06.611+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:58:06.628+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:58:06.628+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T15:58:06.639+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:58:06.639+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:30:00+00:00, run_after=2025-12-01T15:45:00+00:00
+[2025-12-01T15:58:06.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.054 seconds
+[2025-12-01T15:58:36.961+0000] {processor.py:161} INFO - Started process (PID=403) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:58:36.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T15:58:36.963+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:58:36.963+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:58:36.973+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:58:36.991+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:58:36.991+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T15:58:37.004+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:58:37.004+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:30:00+00:00, run_after=2025-12-01T15:45:00+00:00
+[2025-12-01T15:58:37.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.057 seconds
+[2025-12-01T15:59:07.298+0000] {processor.py:161} INFO - Started process (PID=419) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:59:07.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T15:59:07.299+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:59:07.299+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:59:07.308+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:59:07.327+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:59:07.327+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T15:59:07.337+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:59:07.337+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:30:00+00:00, run_after=2025-12-01T15:45:00+00:00
+[2025-12-01T15:59:07.346+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.052 seconds
+[2025-12-01T15:59:37.650+0000] {processor.py:161} INFO - Started process (PID=435) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:59:37.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T15:59:37.651+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:59:37.651+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:59:37.662+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T15:59:37.680+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:59:37.680+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T15:59:37.691+0000] {logging_mixin.py:188} INFO - [2025-12-01T15:59:37.690+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:30:00+00:00, run_after=2025-12-01T15:45:00+00:00
+[2025-12-01T15:59:37.701+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.054 seconds
+[2025-12-01T16:00:07.996+0000] {processor.py:161} INFO - Started process (PID=451) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:00:07.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:00:07.997+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:00:07.997+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:00:08.007+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:00:08.025+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:00:08.025+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:00:08.037+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:00:08.037+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:45:00+00:00, run_after=2025-12-01T16:00:00+00:00
+[2025-12-01T16:00:08.047+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.054 seconds
+[2025-12-01T16:00:38.389+0000] {processor.py:161} INFO - Started process (PID=467) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:00:38.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:00:38.390+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:00:38.390+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:00:38.398+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:00:38.415+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:00:38.415+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:00:38.428+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:00:38.428+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:45:00+00:00, run_after=2025-12-01T16:00:00+00:00
+[2025-12-01T16:00:38.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.050 seconds
+[2025-12-01T16:01:08.767+0000] {processor.py:161} INFO - Started process (PID=483) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:01:08.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:01:08.768+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:01:08.768+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:01:08.777+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:01:08.793+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:01:08.793+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:01:08.807+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:01:08.807+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:45:00+00:00, run_after=2025-12-01T16:00:00+00:00
+[2025-12-01T16:01:08.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.052 seconds
+[2025-12-01T16:01:39.089+0000] {processor.py:161} INFO - Started process (PID=499) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:01:39.091+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:01:39.091+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:01:39.091+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:01:39.099+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:01:39.118+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:01:39.117+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:01:39.132+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:01:39.132+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:45:00+00:00, run_after=2025-12-01T16:00:00+00:00
+[2025-12-01T16:01:39.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.055 seconds
+[2025-12-01T16:02:09.466+0000] {processor.py:161} INFO - Started process (PID=515) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:02:09.467+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:02:09.468+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:02:09.468+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:02:09.478+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:02:09.495+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:02:09.495+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:02:09.508+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:02:09.508+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:45:00+00:00, run_after=2025-12-01T16:00:00+00:00
+[2025-12-01T16:02:09.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.054 seconds
+[2025-12-01T16:02:39.798+0000] {processor.py:161} INFO - Started process (PID=531) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:02:39.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:02:39.800+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:02:39.800+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:02:39.812+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:02:39.830+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:02:39.830+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:02:39.840+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:02:39.840+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:45:00+00:00, run_after=2025-12-01T16:00:00+00:00
+[2025-12-01T16:02:39.851+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.056 seconds
+[2025-12-01T16:03:10.166+0000] {processor.py:161} INFO - Started process (PID=547) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:03:10.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:03:10.168+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:03:10.168+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:03:10.178+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:03:10.193+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:03:10.193+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:03:10.203+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:03:10.203+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:45:00+00:00, run_after=2025-12-01T16:00:00+00:00
+[2025-12-01T16:03:10.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.048 seconds
+[2025-12-01T16:03:40.482+0000] {processor.py:161} INFO - Started process (PID=579) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:03:40.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:03:40.483+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:03:40.483+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:03:40.491+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:03:40.506+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:03:40.506+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:03:40.516+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:03:40.516+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:45:00+00:00, run_after=2025-12-01T16:00:00+00:00
+[2025-12-01T16:03:40.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.047 seconds
+[2025-12-01T16:04:10.798+0000] {processor.py:161} INFO - Started process (PID=594) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:04:10.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:04:10.800+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:04:10.800+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:04:10.808+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:04:10.823+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:04:10.823+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:04:10.833+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:04:10.833+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:45:00+00:00, run_after=2025-12-01T16:00:00+00:00
+[2025-12-01T16:04:10.842+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.046 seconds
+[2025-12-01T16:04:41.224+0000] {processor.py:161} INFO - Started process (PID=610) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:04:41.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:04:41.225+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:04:41.225+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:04:41.234+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:04:41.253+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:04:41.253+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:04:41.266+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:04:41.266+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:45:00+00:00, run_after=2025-12-01T16:00:00+00:00
+[2025-12-01T16:04:41.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T16:05:11.648+0000] {processor.py:161} INFO - Started process (PID=626) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:05:11.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:05:11.649+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:05:11.649+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:05:11.659+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:05:11.677+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:05:11.677+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:05:11.690+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:05:11.689+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:45:00+00:00, run_after=2025-12-01T16:00:00+00:00
+[2025-12-01T16:05:11.701+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.056 seconds
+[2025-12-01T16:05:57.586+0000] {processor.py:161} INFO - Started process (PID=638) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:05:57.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:05:57.587+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:05:57.587+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:05:57.596+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:05:57.611+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:05:57.611+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:05:57.622+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:05:57.622+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:45:00+00:00, run_after=2025-12-01T16:00:00+00:00
+[2025-12-01T16:05:57.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.047 seconds
+[2025-12-01T16:10:52.477+0000] {processor.py:161} INFO - Started process (PID=654) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:10:52.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:10:52.478+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:10:52.478+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:10:52.486+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:10:52.505+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:10:52.505+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:10:52.516+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:10:52.516+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:45:00+00:00, run_after=2025-12-01T16:00:00+00:00
+[2025-12-01T16:10:52.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.054 seconds
+[2025-12-01T16:11:22.812+0000] {processor.py:161} INFO - Started process (PID=670) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:11:22.813+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:11:22.814+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:11:22.814+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:11:22.823+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:11:22.840+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:11:22.840+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:11:22.853+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:11:22.852+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T15:45:00+00:00, run_after=2025-12-01T16:00:00+00:00
+[2025-12-01T16:11:22.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.054 seconds
+[2025-12-01T16:26:52.247+0000] {processor.py:161} INFO - Started process (PID=686) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:26:52.248+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:26:52.248+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:26:52.248+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:26:52.257+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:26:52.272+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:26:52.272+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:26:52.283+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:26:52.283+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:00:00+00:00, run_after=2025-12-01T16:15:00+00:00
+[2025-12-01T16:26:52.293+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.047 seconds
+[2025-12-01T16:27:22.594+0000] {processor.py:161} INFO - Started process (PID=702) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:27:22.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:27:22.595+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:27:22.595+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:27:22.604+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:27:22.621+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:27:22.621+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:27:22.636+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:27:22.636+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:00:00+00:00, run_after=2025-12-01T16:15:00+00:00
+[2025-12-01T16:27:22.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.055 seconds
+[2025-12-01T16:27:52.961+0000] {processor.py:161} INFO - Started process (PID=718) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:27:52.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:27:52.963+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:27:52.963+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:27:52.976+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:27:52.991+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:27:52.991+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:27:53.001+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:27:53.001+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:00:00+00:00, run_after=2025-12-01T16:15:00+00:00
+[2025-12-01T16:27:53.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T16:28:23.284+0000] {processor.py:161} INFO - Started process (PID=734) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:28:23.286+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:28:23.287+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:28:23.286+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:28:23.294+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:28:23.309+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:28:23.309+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:28:23.317+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:28:23.317+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:00:00+00:00, run_after=2025-12-01T16:15:00+00:00
+[2025-12-01T16:28:23.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.045 seconds
+[2025-12-01T16:28:53.600+0000] {processor.py:161} INFO - Started process (PID=750) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:28:53.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:28:53.601+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:28:53.601+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:28:53.609+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:28:53.623+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:28:53.623+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:28:53.635+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:28:53.635+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:00:00+00:00, run_after=2025-12-01T16:15:00+00:00
+[2025-12-01T16:28:53.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.046 seconds
+[2025-12-01T16:29:23.960+0000] {processor.py:161} INFO - Started process (PID=766) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:29:23.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:29:23.963+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:29:23.962+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:29:23.975+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:29:23.990+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:29:23.990+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:29:24.000+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:29:24.000+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:00:00+00:00, run_after=2025-12-01T16:15:00+00:00
+[2025-12-01T16:29:24.008+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.052 seconds
+[2025-12-01T16:32:56.848+0000] {processor.py:161} INFO - Started process (PID=782) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:32:56.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:32:56.849+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:32:56.849+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:32:56.860+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:32:56.877+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:32:56.877+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:32:56.889+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:32:56.889+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:15:00+00:00, run_after=2025-12-01T16:30:00+00:00
+[2025-12-01T16:32:56.899+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T16:34:24.411+0000] {processor.py:161} INFO - Started process (PID=798) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:34:24.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:34:24.413+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:34:24.412+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:34:24.424+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:34:24.441+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:34:24.441+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:34:24.451+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:34:24.451+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:15:00+00:00, run_after=2025-12-01T16:30:00+00:00
+[2025-12-01T16:34:24.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T16:34:54.750+0000] {processor.py:161} INFO - Started process (PID=814) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:34:54.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:34:54.752+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:34:54.752+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:34:54.762+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:34:54.782+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:34:54.782+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:34:54.792+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:34:54.792+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:15:00+00:00, run_after=2025-12-01T16:30:00+00:00
+[2025-12-01T16:34:54.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.056 seconds
+[2025-12-01T16:37:28.400+0000] {processor.py:161} INFO - Started process (PID=832) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:37:28.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:37:28.401+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:37:28.401+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:37:28.408+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:37:28.428+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:37:28.428+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:37:28.440+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:37:28.440+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:15:00+00:00, run_after=2025-12-01T16:30:00+00:00
+[2025-12-01T16:37:28.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.052 seconds
+[2025-12-01T16:37:58.781+0000] {processor.py:161} INFO - Started process (PID=847) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:37:58.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:37:58.782+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:37:58.782+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:37:58.790+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:37:58.811+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:37:58.811+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:37:58.821+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:37:58.820+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:15:00+00:00, run_after=2025-12-01T16:30:00+00:00
+[2025-12-01T16:37:58.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.052 seconds
+[2025-12-01T16:38:29.212+0000] {processor.py:161} INFO - Started process (PID=862) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:38:29.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:38:29.215+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:38:29.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:38:29.225+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:38:29.242+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:38:29.242+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:38:29.253+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:38:29.253+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:15:00+00:00, run_after=2025-12-01T16:30:00+00:00
+[2025-12-01T16:38:29.262+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T16:39:14.342+0000] {processor.py:161} INFO - Started process (PID=878) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:39:14.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:39:14.343+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:39:14.343+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:39:14.358+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:39:14.374+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:39:14.374+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:39:14.384+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:39:14.384+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:15:00+00:00, run_after=2025-12-01T16:30:00+00:00
+[2025-12-01T16:39:14.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.055 seconds
+[2025-12-01T16:39:44.723+0000] {processor.py:161} INFO - Started process (PID=894) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:39:44.724+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:39:44.725+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:39:44.724+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:39:44.737+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:39:44.751+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:39:44.751+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:39:44.761+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:39:44.761+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:15:00+00:00, run_after=2025-12-01T16:30:00+00:00
+[2025-12-01T16:39:44.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.049 seconds
+[2025-12-01T16:40:23.447+0000] {processor.py:161} INFO - Started process (PID=909) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:40:23.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:40:23.448+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:40:23.448+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:40:23.459+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:40:23.477+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:40:23.476+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:40:23.490+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:40:23.490+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:15:00+00:00, run_after=2025-12-01T16:30:00+00:00
+[2025-12-01T16:40:23.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.055 seconds
+[2025-12-01T16:41:46.765+0000] {processor.py:161} INFO - Started process (PID=925) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:41:46.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:41:46.766+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:41:46.766+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:41:46.777+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:41:46.792+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:41:46.792+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:41:46.802+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:41:46.802+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:15:00+00:00, run_after=2025-12-01T16:30:00+00:00
+[2025-12-01T16:41:46.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T16:42:17.114+0000] {processor.py:161} INFO - Started process (PID=940) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:42:17.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:42:17.115+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:42:17.115+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:42:17.126+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:42:17.143+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:42:17.143+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:42:17.156+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:42:17.156+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:15:00+00:00, run_after=2025-12-01T16:30:00+00:00
+[2025-12-01T16:42:17.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.057 seconds
+[2025-12-01T16:43:07.845+0000] {processor.py:161} INFO - Started process (PID=956) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:43:07.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:43:07.846+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:43:07.846+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:43:07.857+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:43:07.872+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:43:07.872+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:43:07.881+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:43:07.881+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:15:00+00:00, run_after=2025-12-01T16:30:00+00:00
+[2025-12-01T16:43:07.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.049 seconds
+[2025-12-01T16:44:27.854+0000] {processor.py:161} INFO - Started process (PID=974) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:44:27.854+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:44:27.855+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:44:27.855+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:44:27.867+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:44:27.886+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:44:27.886+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:44:27.897+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:44:27.897+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:15:00+00:00, run_after=2025-12-01T16:30:00+00:00
+[2025-12-01T16:44:27.907+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.057 seconds
+[2025-12-01T16:44:58.237+0000] {processor.py:161} INFO - Started process (PID=990) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:44:58.238+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:44:58.239+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:44:58.239+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:44:58.248+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:44:58.265+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:44:58.265+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:44:58.277+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:44:58.277+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:15:00+00:00, run_after=2025-12-01T16:30:00+00:00
+[2025-12-01T16:44:58.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.054 seconds
+[2025-12-01T16:47:11.012+0000] {processor.py:161} INFO - Started process (PID=1006) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:47:11.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:47:11.013+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:47:11.013+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:47:11.024+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:47:11.044+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:47:11.044+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:47:11.054+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:47:11.054+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:47:11.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.056 seconds
+[2025-12-01T16:47:41.325+0000] {processor.py:161} INFO - Started process (PID=1022) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:47:41.326+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:47:41.328+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:47:41.328+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:47:41.338+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:47:41.357+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:47:41.357+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:47:41.369+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:47:41.369+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:47:41.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.057 seconds
+[2025-12-01T16:48:52.782+0000] {processor.py:161} INFO - Started process (PID=1038) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:48:52.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:48:52.783+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:48:52.783+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:48:52.793+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:48:52.808+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:48:52.808+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:48:52.818+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:48:52.818+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:48:52.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.049 seconds
+[2025-12-01T16:50:11.161+0000] {processor.py:161} INFO - Started process (PID=1056) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:50:11.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:50:11.162+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:50:11.162+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:50:11.172+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:50:11.190+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:50:11.189+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:50:11.200+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:50:11.200+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:50:11.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T16:50:41.465+0000] {processor.py:161} INFO - Started process (PID=1072) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:50:41.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:50:41.467+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:50:41.466+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:50:41.476+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:50:41.495+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:50:41.495+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:50:41.505+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:50:41.505+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:50:41.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.051 seconds
+[2025-12-01T16:51:48.423+0000] {processor.py:161} INFO - Started process (PID=1088) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:51:48.424+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:51:48.425+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:51:48.425+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:51:48.435+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:51:48.451+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:51:48.451+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:51:48.461+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:51:48.461+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:51:48.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.049 seconds
+[2025-12-01T16:52:18.772+0000] {processor.py:161} INFO - Started process (PID=1104) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:52:18.773+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:52:18.774+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:52:18.774+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:52:18.783+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:52:18.797+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:52:18.797+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:52:18.807+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:52:18.807+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:52:18.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.048 seconds
+[2025-12-01T16:52:49.131+0000] {processor.py:161} INFO - Started process (PID=1120) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:52:49.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:52:49.133+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:52:49.132+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:52:49.141+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:52:49.160+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:52:49.160+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:52:49.170+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:52:49.170+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:52:49.181+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T16:53:50.373+0000] {processor.py:161} INFO - Started process (PID=1138) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:53:50.374+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:53:50.375+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:53:50.375+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:53:50.383+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:53:50.406+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:53:50.406+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:53:50.420+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:53:50.420+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:53:50.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.061 seconds
+[2025-12-01T16:54:20.743+0000] {processor.py:161} INFO - Started process (PID=1154) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:54:20.744+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:54:20.744+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:54:20.744+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:54:20.753+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:54:20.772+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:54:20.772+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:54:20.786+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:54:20.786+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:54:20.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.060 seconds
+[2025-12-01T16:54:51.084+0000] {processor.py:161} INFO - Started process (PID=1170) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:54:51.085+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:54:51.085+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:54:51.085+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:54:51.096+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:54:51.116+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:54:51.116+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:54:51.127+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:54:51.127+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:54:51.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.057 seconds
+[2025-12-01T16:55:21.460+0000] {processor.py:161} INFO - Started process (PID=1186) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:55:21.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:55:21.462+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:55:21.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:55:21.471+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:55:21.492+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:55:21.491+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:55:21.505+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:55:21.505+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:55:21.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.058 seconds
+[2025-12-01T16:55:51.777+0000] {processor.py:161} INFO - Started process (PID=1202) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:55:51.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:55:51.778+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:55:51.778+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:55:51.790+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:55:51.808+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:55:51.808+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:55:51.818+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:55:51.817+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:55:51.829+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.056 seconds
+[2025-12-01T16:56:22.152+0000] {processor.py:161} INFO - Started process (PID=1218) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:56:22.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:56:22.153+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:56:22.153+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:56:22.168+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:56:22.184+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:56:22.184+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:56:22.194+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:56:22.194+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:56:22.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.055 seconds
+[2025-12-01T16:56:52.500+0000] {processor.py:161} INFO - Started process (PID=1234) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:56:52.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:56:52.501+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:56:52.501+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:56:52.512+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:56:52.530+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:56:52.529+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:56:52.540+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:56:52.540+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:56:52.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T16:57:22.767+0000] {processor.py:161} INFO - Started process (PID=1250) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:57:22.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:57:22.769+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:57:22.769+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:57:22.783+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:57:22.806+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:57:22.806+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:57:22.817+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:57:22.817+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:57:22.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.064 seconds
+[2025-12-01T16:57:53.026+0000] {processor.py:161} INFO - Started process (PID=1266) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:57:53.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:57:53.027+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:57:53.027+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:57:53.038+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:57:53.056+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:57:53.056+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:57:53.066+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:57:53.066+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:57:53.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.054 seconds
+[2025-12-01T16:58:23.306+0000] {processor.py:161} INFO - Started process (PID=1281) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:58:23.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:58:23.307+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:58:23.307+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:58:23.317+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:58:23.335+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:58:23.335+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:58:23.345+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:58:23.345+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:58:23.357+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.054 seconds
+[2025-12-01T16:58:53.604+0000] {processor.py:161} INFO - Started process (PID=1297) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:58:53.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:58:53.605+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:58:53.605+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:58:53.616+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:58:53.633+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:58:53.633+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:58:53.643+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:58:53.643+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:58:53.652+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.051 seconds
+[2025-12-01T16:59:23.925+0000] {processor.py:161} INFO - Started process (PID=1313) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:59:23.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:59:23.928+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:59:23.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:59:23.939+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:59:23.955+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:59:23.954+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:59:23.967+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:59:23.967+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:59:23.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.057 seconds
+[2025-12-01T16:59:54.299+0000] {processor.py:161} INFO - Started process (PID=1329) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:59:54.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T16:59:54.301+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:59:54.301+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:59:54.319+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T16:59:54.339+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:59:54.339+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T16:59:54.350+0000] {logging_mixin.py:188} INFO - [2025-12-01T16:59:54.350+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:30:00+00:00, run_after=2025-12-01T16:45:00+00:00
+[2025-12-01T16:59:54.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.064 seconds
+[2025-12-01T17:00:24.584+0000] {processor.py:161} INFO - Started process (PID=1345) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:00:24.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:00:24.586+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:00:24.586+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:00:24.595+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:00:24.612+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:00:24.612+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:00:24.624+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:00:24.624+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:00:24.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.054 seconds
+[2025-12-01T17:00:54.915+0000] {processor.py:161} INFO - Started process (PID=1361) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:00:54.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:00:54.916+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:00:54.916+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:00:54.930+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:00:54.952+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:00:54.952+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:00:54.964+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:00:54.964+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:00:54.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.067 seconds
+[2025-12-01T17:01:25.291+0000] {processor.py:161} INFO - Started process (PID=1377) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:01:25.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:01:25.292+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:01:25.292+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:01:25.302+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:01:25.317+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:01:25.317+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:01:25.328+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:01:25.328+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:01:25.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.050 seconds
+[2025-12-01T17:01:55.583+0000] {processor.py:161} INFO - Started process (PID=1393) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:01:55.584+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:01:55.584+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:01:55.584+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:01:55.595+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:01:55.611+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:01:55.611+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:01:55.622+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:01:55.622+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:01:55.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.054 seconds
+[2025-12-01T17:02:25.918+0000] {processor.py:161} INFO - Started process (PID=1409) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:02:25.919+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:02:25.919+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:02:25.919+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:02:25.930+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:02:25.946+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:02:25.946+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:02:25.957+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:02:25.957+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:02:25.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.052 seconds
+[2025-12-01T17:02:56.246+0000] {processor.py:161} INFO - Started process (PID=1425) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:02:56.247+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:02:56.248+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:02:56.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:02:56.257+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:02:56.272+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:02:56.272+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:02:56.283+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:02:56.283+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:02:56.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.051 seconds
+[2025-12-01T17:03:26.610+0000] {processor.py:161} INFO - Started process (PID=1441) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:03:26.613+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:03:26.614+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:03:26.614+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:03:26.624+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:03:26.641+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:03:26.641+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:03:26.651+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:03:26.651+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:03:26.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.054 seconds
+[2025-12-01T17:03:56.936+0000] {processor.py:161} INFO - Started process (PID=1457) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:03:56.936+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:03:56.937+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:03:56.937+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:03:56.947+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:03:56.964+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:03:56.963+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:03:56.974+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:03:56.974+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:03:56.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.051 seconds
+[2025-12-01T17:04:27.193+0000] {processor.py:161} INFO - Started process (PID=1473) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:04:27.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:04:27.195+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:04:27.194+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:04:27.208+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:04:27.227+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:04:27.227+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:04:27.239+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:04:27.239+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:04:27.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.059 seconds
+[2025-12-01T17:04:57.497+0000] {processor.py:161} INFO - Started process (PID=1489) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:04:57.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:04:57.500+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:04:57.500+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:04:57.512+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:04:57.526+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:04:57.526+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:04:57.536+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:04:57.536+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:04:57.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.052 seconds
+[2025-12-01T17:05:27.753+0000] {processor.py:161} INFO - Started process (PID=1505) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:05:27.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:05:27.754+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:05:27.754+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:05:27.761+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:05:27.777+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:05:27.777+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:05:27.787+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:05:27.787+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:05:27.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.047 seconds
+[2025-12-01T17:05:58.024+0000] {processor.py:161} INFO - Started process (PID=1521) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:05:58.026+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:05:58.026+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:05:58.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:05:58.038+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:05:58.055+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:05:58.055+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:05:58.065+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:05:58.065+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:05:58.074+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T17:06:28.365+0000] {processor.py:161} INFO - Started process (PID=1537) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:06:28.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:06:28.367+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:06:28.367+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:06:28.377+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:06:28.396+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:06:28.396+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:06:28.406+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:06:28.406+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:06:28.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T17:06:58.707+0000] {processor.py:161} INFO - Started process (PID=1553) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:06:58.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:06:58.708+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:06:58.708+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:06:58.718+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:06:58.733+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:06:58.733+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:06:58.743+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:06:58.743+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:06:58.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.048 seconds
+[2025-12-01T17:07:29.057+0000] {processor.py:161} INFO - Started process (PID=1569) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:07:29.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:07:29.059+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:07:29.058+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:07:29.067+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:07:29.085+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:07:29.085+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:07:29.095+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:07:29.095+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:07:29.107+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T17:07:59.406+0000] {processor.py:161} INFO - Started process (PID=1591) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:07:59.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:07:59.408+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:07:59.408+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:07:59.420+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:07:59.435+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:07:59.435+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:07:59.444+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:07:59.444+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:07:59.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.049 seconds
+[2025-12-01T17:08:29.756+0000] {processor.py:161} INFO - Started process (PID=1607) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:08:29.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:08:29.757+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:08:29.757+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:08:29.764+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:08:29.780+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:08:29.779+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:08:29.792+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:08:29.791+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:08:29.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.046 seconds
+[2025-12-01T17:09:00.076+0000] {processor.py:161} INFO - Started process (PID=1622) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:09:00.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:09:00.078+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:09:00.077+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:09:00.086+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:09:00.107+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:09:00.107+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:09:00.118+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:09:00.118+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:09:00.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.056 seconds
+[2025-12-01T17:09:30.385+0000] {processor.py:161} INFO - Started process (PID=1638) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:09:30.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:09:30.386+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:09:30.386+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:09:30.397+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:09:30.412+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:09:30.412+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:09:30.422+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:09:30.422+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:09:30.433+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.051 seconds
+[2025-12-01T17:10:00.711+0000] {processor.py:161} INFO - Started process (PID=1654) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:10:00.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:10:00.713+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:10:00.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:10:00.724+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:10:00.744+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:10:00.744+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:10:00.755+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:10:00.755+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:10:00.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.057 seconds
+[2025-12-01T17:10:30.975+0000] {processor.py:161} INFO - Started process (PID=1670) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:10:30.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:10:30.976+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:10:30.976+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:10:30.986+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:10:31.003+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:10:31.003+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:10:31.013+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:10:31.013+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:10:31.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.049 seconds
+[2025-12-01T17:11:01.239+0000] {processor.py:161} INFO - Started process (PID=1686) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:11:01.240+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:11:01.241+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:11:01.240+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:11:01.248+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:11:01.267+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:11:01.267+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:11:01.278+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:11:01.278+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:11:01.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.050 seconds
+[2025-12-01T17:11:31.535+0000] {processor.py:161} INFO - Started process (PID=1702) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:11:31.535+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:11:31.536+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:11:31.535+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:11:31.547+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:11:31.562+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:11:31.562+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:11:31.572+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:11:31.572+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:11:31.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.050 seconds
+[2025-12-01T17:12:01.782+0000] {processor.py:161} INFO - Started process (PID=1718) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:12:01.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:12:01.784+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:12:01.783+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:12:01.792+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:12:01.811+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:12:01.811+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:12:01.824+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:12:01.824+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:12:01.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.056 seconds
+[2025-12-01T17:12:32.167+0000] {processor.py:161} INFO - Started process (PID=1734) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:12:32.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:12:32.169+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:12:32.169+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:12:32.179+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:12:32.195+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:12:32.195+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:12:32.207+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:12:32.207+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:12:32.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.055 seconds
+[2025-12-01T17:13:02.484+0000] {processor.py:161} INFO - Started process (PID=1750) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:13:02.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:13:02.485+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:13:02.485+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:13:02.494+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:13:02.512+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:13:02.512+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:13:02.523+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:13:02.523+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:13:02.532+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.051 seconds
+[2025-12-01T17:13:32.845+0000] {processor.py:161} INFO - Started process (PID=1766) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:13:32.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:13:32.846+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:13:32.846+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:13:32.855+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:13:32.872+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:13:32.871+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:13:32.885+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:13:32.885+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:13:32.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T17:14:03.190+0000] {processor.py:161} INFO - Started process (PID=1782) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:14:03.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:14:03.191+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:14:03.191+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:14:03.199+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:14:03.215+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:14:03.215+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:14:03.229+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:14:03.229+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:14:03.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.051 seconds
+[2025-12-01T17:14:33.558+0000] {processor.py:161} INFO - Started process (PID=1798) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:14:33.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:14:33.560+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:14:33.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:14:33.569+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:14:33.585+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:14:33.585+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:14:33.598+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:14:33.598+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T16:45:00+00:00, run_after=2025-12-01T17:00:00+00:00
+[2025-12-01T17:14:33.608+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T17:15:03.867+0000] {processor.py:161} INFO - Started process (PID=1814) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:15:03.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:15:03.868+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:15:03.868+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:15:03.878+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:15:03.896+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:15:03.895+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:15:03.906+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:15:03.906+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:15:03.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.051 seconds
+[2025-12-01T17:15:34.200+0000] {processor.py:161} INFO - Started process (PID=1830) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:15:34.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:15:34.203+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:15:34.202+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:15:34.212+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:15:34.228+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:15:34.228+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:15:34.238+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:15:34.238+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:15:34.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.052 seconds
+[2025-12-01T17:16:04.539+0000] {processor.py:161} INFO - Started process (PID=1846) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:16:04.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:16:04.541+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:16:04.541+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:16:04.550+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:16:04.566+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:16:04.566+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:16:04.576+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:16:04.576+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:16:04.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.050 seconds
+[2025-12-01T17:16:34.893+0000] {processor.py:161} INFO - Started process (PID=1862) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:16:34.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:16:34.895+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:16:34.895+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:16:34.908+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:16:34.925+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:16:34.925+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:16:34.936+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:16:34.936+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:16:34.948+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.058 seconds
+[2025-12-01T17:17:05.232+0000] {processor.py:161} INFO - Started process (PID=1878) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:17:05.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:17:05.233+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:17:05.233+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:17:05.242+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:17:05.259+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:17:05.258+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:17:05.272+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:17:05.272+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:17:05.283+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T17:17:35.580+0000] {processor.py:161} INFO - Started process (PID=1894) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:17:35.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:17:35.582+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:17:35.581+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:17:35.595+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:17:35.612+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:17:35.612+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:17:35.625+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:17:35.625+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:17:35.638+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.061 seconds
+[2025-12-01T17:18:05.950+0000] {processor.py:161} INFO - Started process (PID=1910) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:18:05.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:18:05.952+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:18:05.952+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:18:05.962+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:18:05.980+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:18:05.980+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:18:05.990+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:18:05.990+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:18:06.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.055 seconds
+[2025-12-01T17:18:36.292+0000] {processor.py:161} INFO - Started process (PID=1926) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:18:36.293+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:18:36.293+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:18:36.293+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:18:36.306+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:18:36.324+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:18:36.324+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:18:36.335+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:18:36.335+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:18:36.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.056 seconds
+[2025-12-01T17:19:06.591+0000] {processor.py:161} INFO - Started process (PID=1942) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:19:06.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:19:06.593+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:19:06.593+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:19:06.604+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:19:06.617+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:19:06.617+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:19:06.627+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:19:06.627+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:19:06.636+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.049 seconds
+[2025-12-01T17:19:36.920+0000] {processor.py:161} INFO - Started process (PID=1958) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:19:36.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:19:36.921+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:19:36.921+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:19:36.930+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:19:36.947+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:19:36.947+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:19:36.963+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:19:36.963+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:19:36.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.057 seconds
+[2025-12-01T17:20:07.203+0000] {processor.py:161} INFO - Started process (PID=1973) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:20:07.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:20:07.205+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:20:07.205+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:20:07.215+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:20:07.232+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:20:07.232+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:20:07.245+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:20:07.245+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:20:07.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.053 seconds
+[2025-12-01T17:20:37.574+0000] {processor.py:161} INFO - Started process (PID=1989) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:20:37.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:20:37.576+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:20:37.576+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:20:37.590+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:20:37.606+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:20:37.606+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:20:37.616+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:20:37.616+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:20:37.625+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.054 seconds
+[2025-12-01T17:21:07.902+0000] {processor.py:161} INFO - Started process (PID=2005) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:21:07.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:21:07.903+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:21:07.903+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:21:07.915+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:21:07.930+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:21:07.929+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:21:07.939+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:21:07.939+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:21:07.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.051 seconds
+[2025-12-01T17:21:38.235+0000] {processor.py:161} INFO - Started process (PID=2021) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:21:38.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:21:38.236+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:21:38.236+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:21:38.247+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:21:38.264+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:21:38.264+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:21:38.274+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:21:38.274+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:21:38.284+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.051 seconds
+[2025-12-01T17:22:08.577+0000] {processor.py:161} INFO - Started process (PID=2037) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:22:08.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:22:08.578+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:22:08.578+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:22:08.589+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:22:08.608+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:22:08.607+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:22:08.620+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:22:08.620+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:22:08.630+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.056 seconds
+[2025-12-01T17:22:38.908+0000] {processor.py:161} INFO - Started process (PID=2053) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:22:38.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:22:38.909+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:22:38.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:22:38.921+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:22:38.937+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:22:38.937+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:22:38.950+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:22:38.950+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:22:38.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.059 seconds
+[2025-12-01T17:23:09.234+0000] {processor.py:161} INFO - Started process (PID=2069) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:23:09.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:23:09.235+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:23:09.235+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:23:09.246+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:23:09.261+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:23:09.261+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:23:09.271+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:23:09.271+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:23:09.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.048 seconds
+[2025-12-01T17:23:39.544+0000] {processor.py:161} INFO - Started process (PID=2085) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:23:39.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:23:39.546+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:23:39.546+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:23:39.555+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:23:39.575+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:23:39.575+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:23:39.585+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:23:39.585+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:23:39.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.057 seconds
+[2025-12-01T17:24:09.864+0000] {processor.py:161} INFO - Started process (PID=2101) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:24:09.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:24:09.866+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:24:09.865+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:24:09.877+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:24:09.893+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:24:09.893+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:24:09.903+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:24:09.903+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:24:09.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.051 seconds
+[2025-12-01T17:24:40.198+0000] {processor.py:161} INFO - Started process (PID=2117) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:24:40.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:24:40.199+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:24:40.199+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:24:40.209+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:24:40.228+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:24:40.228+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:24:40.238+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:24:40.238+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:24:40.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.055 seconds
+[2025-12-01T17:25:10.515+0000] {processor.py:161} INFO - Started process (PID=2132) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:25:10.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:25:10.516+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:25:10.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:25:10.527+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:25:10.545+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:25:10.545+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:25:10.556+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:25:10.556+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:25:10.564+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.052 seconds
+[2025-12-01T17:25:40.799+0000] {processor.py:161} INFO - Started process (PID=2148) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:25:40.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:25:40.800+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:25:40.800+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:25:40.811+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:25:40.828+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:25:40.828+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:25:40.838+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:25:40.838+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:25:40.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.051 seconds
+[2025-12-01T17:26:11.103+0000] {processor.py:161} INFO - Started process (PID=2164) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:26:11.104+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:26:11.104+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:26:11.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:26:11.113+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:26:11.134+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:26:11.134+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:26:11.144+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:26:11.144+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:26:11.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.054 seconds
+[2025-12-01T17:26:41.464+0000] {processor.py:161} INFO - Started process (PID=2180) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:26:41.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:26:41.466+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:26:41.466+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:26:41.479+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:26:41.494+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:26:41.494+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:26:41.505+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:26:41.505+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:26:41.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.054 seconds
+[2025-12-01T17:27:11.778+0000] {processor.py:161} INFO - Started process (PID=2196) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:27:11.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:27:11.779+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:27:11.779+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:27:11.788+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:27:11.804+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:27:11.804+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:27:11.814+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:27:11.814+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:27:11.827+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.052 seconds
+[2025-12-01T17:27:42.096+0000] {processor.py:161} INFO - Started process (PID=2211) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:27:42.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:27:42.100+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:27:42.099+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:27:42.111+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:27:42.129+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:27:42.128+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:27:42.141+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:27:42.140+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:27:42.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.059 seconds
+[2025-12-01T17:28:12.419+0000] {processor.py:161} INFO - Started process (PID=2226) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:28:12.420+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:28:12.421+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:28:12.420+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:28:12.430+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:28:12.448+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:28:12.448+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:28:12.460+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:28:12.460+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:28:12.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.055 seconds
+[2025-12-01T17:28:42.648+0000] {processor.py:161} INFO - Started process (PID=2242) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:28:42.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:28:42.649+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:28:42.649+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:28:42.659+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:28:42.675+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:28:42.675+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:28:42.685+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:28:42.685+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:28:42.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.052 seconds
+[2025-12-01T17:29:12.931+0000] {processor.py:161} INFO - Started process (PID=2258) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:29:12.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:29:12.932+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:29:12.932+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:29:12.943+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:29:12.961+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:29:12.961+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:29:12.971+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:29:12.971+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:29:12.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.052 seconds
+[2025-12-01T17:29:43.231+0000] {processor.py:161} INFO - Started process (PID=2274) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:29:43.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:29:43.232+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:29:43.232+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:29:43.244+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:29:43.265+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:29:43.265+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:29:43.282+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:29:43.282+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:00:00+00:00, run_after=2025-12-01T17:15:00+00:00
+[2025-12-01T17:29:43.293+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.065 seconds
+[2025-12-01T17:30:13.452+0000] {processor.py:161} INFO - Started process (PID=2290) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:30:13.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:30:13.453+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:30:13.453+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:30:13.464+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:30:13.477+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:30:13.477+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:30:13.487+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:30:13.486+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:15:00+00:00, run_after=2025-12-01T17:30:00+00:00
+[2025-12-01T17:30:13.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.044 seconds
+[2025-12-01T17:30:43.706+0000] {processor.py:161} INFO - Started process (PID=2306) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:30:43.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T17:30:43.708+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:30:43.707+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:30:43.718+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T17:30:43.735+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:30:43.735+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T17:30:43.750+0000] {logging_mixin.py:188} INFO - [2025-12-01T17:30:43.750+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T17:15:00+00:00, run_after=2025-12-01T17:30:00+00:00
+[2025-12-01T17:30:43.761+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.058 seconds
+[2025-12-01T23:35:41.379+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T23:35:41.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T23:35:41.383+0000] {logging_mixin.py:188} INFO - [2025-12-01T23:35:41.383+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T23:35:41.395+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T23:35:41.422+0000] {logging_mixin.py:188} INFO - [2025-12-01T23:35:41.422+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T23:35:41.434+0000] {logging_mixin.py:188} INFO - [2025-12-01T23:35:41.433+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T23:15:00+00:00, run_after=2025-12-01T23:30:00+00:00
+[2025-12-01T23:35:41.445+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.068 seconds
+[2025-12-01T23:36:11.648+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T23:36:11.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T23:36:11.648+0000] {logging_mixin.py:188} INFO - [2025-12-01T23:36:11.648+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T23:36:11.657+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T23:36:11.673+0000] {logging_mixin.py:188} INFO - [2025-12-01T23:36:11.673+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T23:36:11.684+0000] {logging_mixin.py:188} INFO - [2025-12-01T23:36:11.684+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T23:15:00+00:00, run_after=2025-12-01T23:30:00+00:00
+[2025-12-01T23:36:11.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.047 seconds
+[2025-12-01T23:39:49.705+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T23:39:49.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T23:39:49.707+0000] {logging_mixin.py:188} INFO - [2025-12-01T23:39:49.707+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T23:39:49.720+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T23:39:49.743+0000] {logging_mixin.py:188} INFO - [2025-12-01T23:39:49.743+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T23:39:49.752+0000] {logging_mixin.py:188} INFO - [2025-12-01T23:39:49.752+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T23:15:00+00:00, run_after=2025-12-01T23:30:00+00:00
+[2025-12-01T23:39:49.761+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.058 seconds
+[2025-12-01T23:40:20.003+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T23:40:20.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/smart_access_streaming_dag.py for tasks to queue
+[2025-12-01T23:40:20.004+0000] {logging_mixin.py:188} INFO - [2025-12-01T23:40:20.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T23:40:20.014+0000] {processor.py:840} INFO - DAG(s) 'smart_access_streaming_pipeline' retrieved from /opt/airflow/dags/smart_access_streaming_dag.py
+[2025-12-01T23:40:20.030+0000] {logging_mixin.py:188} INFO - [2025-12-01T23:40:20.030+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-12-01T23:40:20.043+0000] {logging_mixin.py:188} INFO - [2025-12-01T23:40:20.043+0000] {dag.py:3820} INFO - Setting next_dagrun for smart_access_streaming_pipeline to 2025-12-01T23:15:00+00:00, run_after=2025-12-01T23:30:00+00:00
+[2025-12-01T23:40:20.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/smart_access_streaming_dag.py took 0.054 seconds

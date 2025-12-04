@@ -6,7 +6,7 @@ BASE_PATH = Path(__file__).resolve().parents[1] / "data" / "raw"
 
 conn = psycopg2.connect(
     dbname="smart_access",
-    user="postgres",
+    user="benmobley",
     password="",  # or your password
     host="localhost",
     port=5432,
