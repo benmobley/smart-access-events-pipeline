@@ -45,12 +45,14 @@ streamlit run analytics/streamlit_app.py
 ### **Batch Workflow** (Scheduled)
 
 **Option 1: Airflow** (runs daily at 2 AM UTC)
+
 ```bash
 docker-compose -f docker-compose.airflow.yml --env-file .env.airflow up -d
 # Airflow UI: http://localhost:8080 (airflow/airflow)
 ```
 
 **Option 2: Manual Bash Script**
+
 ```bash
 ./orchestration/run_all.sh
 streamlit run analytics/streamlit_app.py
@@ -72,6 +74,7 @@ streamlit run analytics/streamlit_app.py
 **Staging** (`smart_access` schema): Cleaned, standardized views
 
 **Marts** (`smart_access` schema):
+
 - **Dimensions**: `dim_device`, `dim_household`
 - **Facts**: `fct_access_events` (event-level), `fct_device_daily_summary` (aggregated)
 
